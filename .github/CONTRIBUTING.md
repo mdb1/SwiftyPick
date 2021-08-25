@@ -60,7 +60,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ### Swift Styleguide
 
-* Follow the rules specified by the swiftlint rules file 🚓
+* Follow the rules specified by the [SwiftLint rules](../.swiftlint.yml) 🚓
 
 ### Documentation Styleguide
 

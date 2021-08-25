@@ -26,7 +26,11 @@ Every new piece of functionality will have a proper document explaining it's usa
 ### Github
 
 #### [Set up PR and Issue templates](Documentation/GithubTemplates.md)
-Step by step guide on how to add a Pull Request or Issue template to your project.
+How to add a Pull Request or Issue template to your project.
+
+### SwiftLint
+#### [Configure SwiftLint in your project](Documentation/SwiftLint.md)
+How to add and configure SwiftLint rules.
 
 <!-- ### Scripts -->
 
