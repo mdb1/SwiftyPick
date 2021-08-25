@@ -10,6 +10,7 @@ DerivedData/
 
 # build products
 build/
+.build
 
 # CocoaPods
 Pods/
