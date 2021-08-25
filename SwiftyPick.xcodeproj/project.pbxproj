@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B0FF26D67D340051EDEA /* GithubTemplates.md */; };
 		A044B10226D67D470051EDEA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10126D67D470051EDEA /* README.md */; };
+		A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10426D6868C0051EDEA /* SwiftLint.md */; };
 		A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890C926D5D7A700D1BC36 /* AppDelegate.swift */; };
 		A06890CC26D5D7A700D1BC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */; };
 		A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		A044B0FF26D67D340051EDEA /* GithubTemplates.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GithubTemplates.md; sourceTree = "<group>"; };
 		A044B10126D67D470051EDEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A044B10426D6868C0051EDEA /* SwiftLint.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SwiftLint.md; sourceTree = "<group>"; };
 		A06890C626D5D7A700D1BC36 /* SwiftyPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06890C926D5D7A700D1BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
+				A044B10426D6868C0051EDEA /* SwiftLint.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				A06890C226D5D7A700D1BC36 /* Sources */,
 				A06890C326D5D7A700D1BC36 /* Frameworks */,
 				A06890C426D5D7A700D1BC36 /* Resources */,
+				A044B10326D686100051EDEA /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -242,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */,
 				A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */,
 				A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */,
 				A044B10226D67D470051EDEA /* README.md in Resources */,
@@ -264,6 +269,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A044B10326D686100051EDEA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftLint script\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A06890C226D5D7A700D1BC36 /* Sources */ = {
