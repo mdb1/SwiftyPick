@@ -13,7 +13,7 @@ let package = Package(
         .target(
             name: "SwiftyPick",
             dependencies: ["Danger"],
-            path: "SwiftyPick/",
+            path: "SwiftyPick/Configuration/Danger",
             sources: ["DangerEmptyFile.swift"]
         ),
         .testTarget(
