@@ -57,6 +57,7 @@
 		A06890ED26D5D7A900D1BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
+		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 				A0FAAEB026D6C87A00B4F1A4 /* Danger.md */,
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
+				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
 			);
 			path = Documentation;

@@ -7,6 +7,14 @@ Useful Swift code samples, extensions, functionalities and scripts to cherry-pic
 The idea behind this project is not to be a `pod` that users import into their own projects, but rather a collection of useful ideas, well-organized and documented, to cherry-pick as needed into another projects.
 Every new piece of functionality will have a proper document explaining it's usage under the `Documentation` directory.
 
+## Installation
+
+### SwiftLint
+ > `brew install swiftlint`
+ 
+### Configure the Git Hooks
+ > `git config core.hooksPath .githooks`
+
 # Features 🚀
 
 <!-- Comment block
