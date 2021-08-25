@@ -23,12 +23,20 @@ Every new piece of functionality will have a proper document explaining it's usa
 
 ## Process
 
+### Danger
+#### [Configuring Danger](Documentation/Danger.md)
+Configure Danger and add a Github Action to run the script on every PR.
+
 ### Github
 
 #### [Set up PR and Issue templates](Documentation/GithubTemplates.md)
 How to add a Pull Request or Issue template to your project.
 
+#### [Github Actions](Documentation/GithubActions.md)
+How to add a Github Actions and make them run on Pull Requests.
+
 ### SwiftLint
+
 #### [Configure SwiftLint in your project](Documentation/SwiftLint.md)
 How to add and configure SwiftLint rules.
 

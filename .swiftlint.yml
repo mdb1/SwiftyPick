@@ -1,4 +1,5 @@
 # Find all the available rules by running: swiftlint rules
+allow_zero_lintable_files: true
 
 opt_in_rules:
   - anyobject_protocol
@@ -59,6 +60,9 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - derivedData
   - Documenation
   - .git
+  - .build
+  - Dangerfile.swift
+  - Package.swift
 
 # configurable rules can be customized from this configuration file
 # binary rules can set their severity level
