@@ -87,10 +87,10 @@
 		A044B0FE26D67D340051EDEA /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				A0FAAEB026D6C87A00B4F1A4 /* Danger.md */,
+				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
-				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
-				A0FAAEB026D6C87A00B4F1A4 /* Danger.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -122,11 +122,11 @@
 			children = (
 				A0FAAEB126D6D1F000B4F1A4 /* Configuration */,
 				A06890C926D5D7A700D1BC36 /* AppDelegate.swift */,
+				A06890D226D5D7A900D1BC36 /* Assets.xcassets */,
+				A06890D726D5D7A900D1BC36 /* Info.plist */,
+				A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */,
 				A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */,
 				A06890CD26D5D7A700D1BC36 /* ViewController.swift */,
-				A06890D226D5D7A900D1BC36 /* Assets.xcassets */,
-				A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */,
-				A06890D726D5D7A900D1BC36 /* Info.plist */,
 			);
 			path = SwiftyPick;
 			sourceTree = "<group>";
@@ -134,8 +134,8 @@
 		A06890DF26D5D7A900D1BC36 /* SwiftyPickTests */ = {
 			isa = PBXGroup;
 			children = (
-				A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */,
 				A06890E226D5D7A900D1BC36 /* Info.plist */,
+				A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */,
 			);
 			path = SwiftyPickTests;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		A06890EA26D5D7A900D1BC36 /* SwiftyPickUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */,
 				A06890ED26D5D7A900D1BC36 /* Info.plist */,
+				A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */,
 			);
 			path = SwiftyPickUITests;
 			sourceTree = "<group>";
@@ -269,11 +269,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */,
-				A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */,
-				A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */,
-				A044B10226D67D470051EDEA /* README.md in Resources */,
 				A06890D326D5D7A900D1BC36 /* Assets.xcassets in Resources */,
+				A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */,
+				A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */,
+				A044B10226D67D470051EDEA /* README.md in Resources */,
+				A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,10 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
-				A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */,
 				A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */,
+				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
 				A06890CC26D5D7A700D1BC36 /* SceneDelegate.swift in Sources */,
+				A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

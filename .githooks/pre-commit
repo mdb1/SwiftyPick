@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export PATH=/usr/local/bin:$PATH
+
+## Check if project's files are sorted alphabetically
+if test $(perl ./scripts/sort.pl --check SwiftyPick.xcodeproj/ 2>&1 | wc -l) != 0
+then
+	printf "\nCOMMIT ABORTED. Error: Attempting to commit an unsorted xcode project file.\n"
+	printf "\nPlease run 'perl ./scripts/sort.pl SwiftyPick.xcodeproj/' before committing.\n"
+	exit 1
+fi
