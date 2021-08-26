@@ -25,6 +25,8 @@
 		A07265BB26D7CADC0052DE86 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07265BA26D7CADC0052DE86 /* Color.xcassets */; };
 		A074DEC826D7CF88008D4A17 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */; };
 		A074DEC926D7CF88008D4A17 /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DEC726D7CF88008D4A17 /* Assets+Generated.swift */; };
+		A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECB26D7D495008D4A17 /* ImageTests.swift */; };
+		A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECD26D7D713008D4A17 /* ColorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		A07265BA26D7CADC0052DE86 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 		A074DEC726D7CF88008D4A17 /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		A074DECB26D7D495008D4A17 /* ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTests.swift; sourceTree = "<group>"; };
+		A074DECD26D7D713008D4A17 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 		A06890DF26D5D7A900D1BC36 /* SwiftyPickTests */ = {
 			isa = PBXGroup;
 			children = (
+				A074DECA26D7D47B008D4A17 /* Resources */,
 				A06890E226D5D7A900D1BC36 /* Info.plist */,
 				A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */,
 			);
@@ -233,6 +238,15 @@
 				A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		A074DECA26D7D47B008D4A17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A074DECD26D7D713008D4A17 /* ColorTests.swift */,
+				A074DECB26D7D495008D4A17 /* ImageTests.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A0FAAEB126D6D1F000B4F1A4 /* Configuration */ = {
@@ -508,6 +522,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */,
+				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A06890E126D5D7A900D1BC36 /* SwiftyPickTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
