@@ -84,6 +84,7 @@
 		A074DED226D7D9B1008D4A17 /* UITestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsPlan.xctestplan; sourceTree = "<group>"; };
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
+		A0D951F326D7DFCE00C7F61B /* SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftGen.md; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
 				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
+				A0D951F326D7DFCE00C7F61B /* SwiftGen.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
 			);
 			path = Documentation;
