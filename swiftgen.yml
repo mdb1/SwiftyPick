@@ -1,0 +1,17 @@
+ strings:
+   inputs:
+     - SwiftyPick/Resources/Localizable/en.lproj
+   outputs:
+     - templateName: structured-swift5
+       output: SwiftyPick/Resources/Generated/Strings+Generated.swift
+
+ xcassets:
+   inputs:
+     - SwiftyPick/Resources/Assets/Image.xcassets
+     - SwiftyPick/Resources/Assets/Color.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         forceProvidesNamespaces: true
+         allValues: true # This one is for testing existence
+       output: SwiftyPick/Resources/Generated/Assets+Generated.swift

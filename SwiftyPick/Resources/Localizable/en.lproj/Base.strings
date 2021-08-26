@@ -1,0 +1,9 @@
+/* 
+  Base.strings
+  SwiftyPick
+
+  Created by Manu Herrera on 26/08/2021.
+  
+*/
+
+"hello" = "hello";
