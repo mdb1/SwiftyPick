@@ -3,7 +3,9 @@
   SwiftyPick
 
   Created by Manu Herrera on 26/08/2021.
-  
+  Base file (English)
 */
 
-"hello" = "hello";
+"Greeting.hello" = "Hello";
+"Greeting.world" = "world";
+"Greeting.person" = "Hello %s";

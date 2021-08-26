@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "81682B13-900B-4F41-940F-2F1117C7E954",
+      "name" : "Argentina Config - Spanish",
+      "options" : {
+        "language" : "es",
+        "region" : "AR",
+        "testExecutionOrdering" : "random"
+      }
+    },
+    {
+      "id" : "9E237A9F-435D-4EB1-B6A0-042679EDDEF5",
+      "name" : "United States Config - English",
+      "options" : {
+        "language" : "en",
+        "region" : "US",
+        "testExecutionOrdering" : "random"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftyPick.xcodeproj",
+      "identifier" : "A06890C526D5D7A700D1BC36",
+      "name" : "SwiftyPick"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SwiftyPick.xcodeproj",
+        "identifier" : "A06890DB26D5D7A900D1BC36",
+        "name" : "SwiftyPickTests"
+      }
+    }
+  ],
+  "version" : 1
+}

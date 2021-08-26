@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "BD0DB74A-2767-4478-9E69-0F1AEFB9BEAD",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftyPick.xcodeproj",
+        "identifier" : "A06890E626D5D7A900D1BC36",
+        "name" : "SwiftyPickUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

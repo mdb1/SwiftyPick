@@ -1,0 +1,11 @@
+/* 
+  Base.strings
+  SwiftyPick
+
+  Created by Manu Herrera on 26/08/2021.
+  (Spanish)
+*/
+
+"Greeting.hello" = "Hola";
+"Greeting.world" = "mundo";
+"Greeting.person" = "Hola %s";

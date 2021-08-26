@@ -10,8 +10,17 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
-  /// hello
-  internal static let hello = L10n.tr("Base", "hello")
+
+  internal enum Greeting {
+    /// Hello
+    internal static let hello = L10n.tr("Base", "Greeting.hello")
+    /// Hello %s
+    internal static func person(_ p1: UnsafePointer<CChar>) -> String {
+      return L10n.tr("Base", "Greeting.person", p1)
+    }
+    /// world
+    internal static let world = L10n.tr("Base", "Greeting.world")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
