@@ -12,14 +12,14 @@ You can also have multiple templates inside your projects:
 1. Create a `.github` directory in the root of your project
 2. Inside that directory, add the templates you want. 
 
-## Cherry-Pick the PR Template
+## Cherry-Pick the PR Template 🍒
 1. Create a `PULL_REQUEST_TEMPLATE.md` file under the `.github` directory.
 2. Use the contents on the [PULL_REQUEST_TEMPLATE.md](../.github/PULL_REQUEST_TEMPLATE.md) file as inspiration for your own template. 
 
-## Cherry-Pick the Issue Template
+## Cherry-Pick the Issue Template 🍒
 1. Create a `ISSUE_TEMPLATE.md` file under the `.github` directory.
 2. Use the contents on the [ISSUE_TEMPLATE.md](../.github/ISSUE_TEMPLATE.md) file as inspiration for your own template. 
 
-## Cherry-Pick the Contribution Guide
+## Cherry-Pick the Contribution Guide 🍒
 1. Create a `CONTRIBUTING.md` file under the `.github` directory.
 2. Use the contents on the [CONTRIBUTING.md](../.github/CONTRIBUTING.md) file as inspiration for your own template. 

@@ -9,11 +9,11 @@ A tool to enforce Swift style and conventions, loosely based on the now archived
 SwiftLint enforces the style guide rules that are generally accepted by the Swift community.
 ```
 
-## Steps
-You can follow the steps provided by [this article](https://medium.com/developerinsider/how-to-use-swiftlint-with-xcode-to-enforce-swift-style-and-conventions-368e49e910)
+## Steps to cherry-pick 🍒
+You can follow the steps provided by [this article](https://medium.com/developerinsider/how-to-use-swiftlint-with-xcode-to-enforce-swift-style-and-conventions-368e49e910).
 
-1. Install `swiftlint`: `brew install swiftlint`
-2. Integrate SwiftLint with Xcode
+1. Install `swiftlint`: `brew install swiftlint`.
+2. Integrate SwiftLint with Xcode.
 Add a build phase to your project:
 ```bash
 if which swiftlint >/dev/null; then
@@ -22,7 +22,7 @@ else
   echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
 ```
-3. Build the project and fix the warnings
+3. Build the project and fix the warnings.
 
 ## Custom configuration
 Additionally, you can opt_in or opt_out to other `SwiftLint` rules. The full list of rules is available [here](https://realm.github.io/SwiftLint/rule-directory.html).
@@ -30,7 +30,8 @@ In order to add custom configuration, create a `.swiftlint.yml` file under the r
 See [here](../.swiftlint.yml) for an example.
 
 ## Hide Pod Warnings
-You can hide Pod warnings from your Xcode Project by adding inhibit_all_warnings! in your Podfile for all 3rd party dependencies or :inhibit_warnings => true for specific dependency.
+You can hide Pod warnings from your Xcode Project by adding inhibit_all_warnings! in your Podfile for all 3rd party dependencies 
+or :inhibit_warnings => true for specific dependency.
 
 ### Example:
 ```bash
