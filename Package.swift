@@ -15,10 +15,6 @@ let package = Package(
             dependencies: ["Danger"],
             path: "SwiftyPick/Configuration/Danger",
             sources: ["DangerEmptyFile.swift"]
-        ),
-        .testTarget(
-            name: "SwiftyPickTests",
-            path: "SwiftyPickTests/"
         )
     ]
 )

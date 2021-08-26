@@ -14,10 +14,17 @@
 		A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890C926D5D7A700D1BC36 /* AppDelegate.swift */; };
 		A06890CC26D5D7A700D1BC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */; };
 		A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ViewController.swift */; };
-		A06890D326D5D7A900D1BC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06890D226D5D7A900D1BC36 /* Assets.xcassets */; };
+		A06890D326D5D7A900D1BC36 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06890D226D5D7A900D1BC36 /* Image.xcassets */; };
 		A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */; };
-		A06890E126D5D7A900D1BC36 /* SwiftyPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */; };
 		A06890EC26D5D7A900D1BC36 /* SwiftyPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */; };
+		A07265B026D7C8C80052DE86 /* Base.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07265B226D7C8C80052DE86 /* Base.strings */; };
+		A07265BB26D7CADC0052DE86 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07265BA26D7CADC0052DE86 /* Color.xcassets */; };
+		A074DEC826D7CF88008D4A17 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */; };
+		A074DEC926D7CF88008D4A17 /* Assets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DEC726D7CF88008D4A17 /* Assets+Generated.swift */; };
+		A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECB26D7D495008D4A17 /* ImageTests.swift */; };
+		A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECD26D7D713008D4A17 /* ColorTests.swift */; };
+		A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */; };
+		A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,26 +45,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54B44A6F2573545EA63BBBF3 /* Pods-SwiftyPick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPick.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyPick/Pods-SwiftyPick.debug.xcconfig"; sourceTree = "<group>"; };
+		5D144CC31D101D7CD1A420B6 /* Pods-SwiftyPick-SwiftyPickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPick-SwiftyPickUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyPick-SwiftyPickUITests/Pods-SwiftyPick-SwiftyPickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD532D86592440444784DE0 /* Pods-SwiftyPickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPickTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyPickTests/Pods-SwiftyPickTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A044B0FF26D67D340051EDEA /* GithubTemplates.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GithubTemplates.md; sourceTree = "<group>"; };
 		A044B10126D67D470051EDEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A044B10426D6868C0051EDEA /* SwiftLint.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SwiftLint.md; sourceTree = "<group>"; };
 		A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerEmptyFile.swift; sourceTree = "<group>"; };
+		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
 		A06890C626D5D7A700D1BC36 /* SwiftyPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06890C926D5D7A700D1BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A06890CD26D5D7A700D1BC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A06890D226D5D7A900D1BC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06890D226D5D7A900D1BC36 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		A06890D526D5D7A900D1BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06890D726D5D7A900D1BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06890DC26D5D7A900D1BC36 /* SwiftyPickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPickTests.swift; sourceTree = "<group>"; };
 		A06890E226D5D7A900D1BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06890E726D5D7A900D1BC36 /* SwiftyPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPickUITests.swift; sourceTree = "<group>"; };
 		A06890ED26D5D7A900D1BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07265B126D7C8C80052DE86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Base.strings; sourceTree = "<group>"; };
+		A07265BA26D7CADC0052DE86 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
+		A074DEC726D7CF88008D4A17 /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
+		A074DECB26D7D495008D4A17 /* ImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTests.swift; sourceTree = "<group>"; };
+		A074DECD26D7D713008D4A17 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
+		A074DECF26D7D7D5008D4A17 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A074DED026D7D7D5008D4A17 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Base.strings; sourceTree = "<group>"; };
+		A074DED126D7D926008D4A17 /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = UnitTestsPlan.xctestplan; path = SwiftyPickTests/UnitTestsPlan.xctestplan; sourceTree = SOURCE_ROOT; };
+		A074DED226D7D9B1008D4A17 /* UITestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsPlan.xctestplan; sourceTree = "<group>"; };
+		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
+		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
+		A0D951F326D7DFCE00C7F61B /* SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftGen.md; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
+		AAF30A2A9E0CFA751FDAF638 /* Pods-SwiftyPickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPickTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyPickTests/Pods-SwiftyPickTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBE05B610B5D4F808C676964 /* Pods-SwiftyPick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPick.release.xcconfig"; path = "Target Support Files/Pods-SwiftyPick/Pods-SwiftyPick.release.xcconfig"; sourceTree = "<group>"; };
+		F7A3AECFDC3BCBEBDBCC908C /* Pods-SwiftyPick-SwiftyPickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPick-SwiftyPickUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyPick-SwiftyPickUITests/Pods-SwiftyPick-SwiftyPickUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +111,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56970F1D675F718253EFB3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851D639F1D1A0A48E586C4D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D144CC31D101D7CD1A420B6 /* Pods-SwiftyPick-SwiftyPickUITests.debug.xcconfig */,
+				F7A3AECFDC3BCBEBDBCC908C /* Pods-SwiftyPick-SwiftyPickUITests.release.xcconfig */,
+				54B44A6F2573545EA63BBBF3 /* Pods-SwiftyPick.debug.xcconfig */,
+				EBE05B610B5D4F808C676964 /* Pods-SwiftyPick.release.xcconfig */,
+				9DD532D86592440444784DE0 /* Pods-SwiftyPickTests.debug.xcconfig */,
+				AAF30A2A9E0CFA751FDAF638 /* Pods-SwiftyPickTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A044B0FE26D67D340051EDEA /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
 				A0FAAEB026D6C87A00B4F1A4 /* Danger.md */,
+				A064F88B26D8188A009335E9 /* Fastlane.md */,
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
 				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
+				A0D951F326D7DFCE00C7F61B /* SwiftGen.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
 			);
 			path = Documentation;
@@ -106,6 +154,8 @@
 				A06890DF26D5D7A900D1BC36 /* SwiftyPickTests */,
 				A06890EA26D5D7A900D1BC36 /* SwiftyPickUITests */,
 				A06890C726D5D7A700D1BC36 /* Products */,
+				851D639F1D1A0A48E586C4D9 /* Pods */,
+				56970F1D675F718253EFB3C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				A0FAAEB126D6D1F000B4F1A4 /* Configuration */,
+				A07265AD26D7C8960052DE86 /* Resources */,
 				A06890C926D5D7A700D1BC36 /* AppDelegate.swift */,
-				A06890D226D5D7A900D1BC36 /* Assets.xcassets */,
 				A06890D726D5D7A900D1BC36 /* Info.plist */,
 				A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */,
 				A06890CB26D5D7A700D1BC36 /* SceneDelegate.swift */,
@@ -136,8 +186,10 @@
 		A06890DF26D5D7A900D1BC36 /* SwiftyPickTests */ = {
 			isa = PBXGroup;
 			children = (
+				A074DED526D7DB8F008D4A17 /* Extension */,
+				A074DECA26D7D47B008D4A17 /* Resources */,
 				A06890E226D5D7A900D1BC36 /* Info.plist */,
-				A06890E026D5D7A900D1BC36 /* SwiftyPickTests.swift */,
+				A074DED126D7D926008D4A17 /* UnitTestsPlan.xctestplan */,
 			);
 			path = SwiftyPickTests;
 			sourceTree = "<group>";
@@ -147,8 +199,63 @@
 			children = (
 				A06890ED26D5D7A900D1BC36 /* Info.plist */,
 				A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */,
+				A074DED226D7D9B1008D4A17 /* UITestsPlan.xctestplan */,
 			);
 			path = SwiftyPickUITests;
+			sourceTree = "<group>";
+		};
+		A07265AD26D7C8960052DE86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A07265B926D7CABC0052DE86 /* Assets */,
+				A074DEC526D7CF23008D4A17 /* Generated */,
+				A07265B526D7CA470052DE86 /* Localizable */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A07265B526D7CA470052DE86 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A07265B226D7C8C80052DE86 /* Base.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		A07265B926D7CABC0052DE86 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A07265BA26D7CADC0052DE86 /* Color.xcassets */,
+				A06890D226D5D7A900D1BC36 /* Image.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A074DEC526D7CF23008D4A17 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A074DEC726D7CF88008D4A17 /* Assets+Generated.swift */,
+				A074DEC626D7CF88008D4A17 /* Strings+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		A074DECA26D7D47B008D4A17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A074DECD26D7D713008D4A17 /* ColorTests.swift */,
+				A074DECB26D7D495008D4A17 /* ImageTests.swift */,
+				A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A074DED526D7DB8F008D4A17 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A0FAAEB126D6D1F000B4F1A4 /* Configuration */ = {
@@ -174,10 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A06890F026D5D7A900D1BC36 /* Build configuration list for PBXNativeTarget "SwiftyPick" */;
 			buildPhases = (
+				ADE60168B5D76430A210FED1 /* [CP] Check Pods Manifest.lock */,
+				A07265AC26D7C7C70052DE86 /* SwiftGen */,
+				A044B10326D686100051EDEA /* SwiftLint */,
 				A06890C226D5D7A700D1BC36 /* Sources */,
 				A06890C326D5D7A700D1BC36 /* Frameworks */,
 				A06890C426D5D7A700D1BC36 /* Resources */,
-				A044B10326D686100051EDEA /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -192,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A06890F326D5D7A900D1BC36 /* Build configuration list for PBXNativeTarget "SwiftyPickTests" */;
 			buildPhases = (
+				A611F3AA9832E762ACEEC45A /* [CP] Check Pods Manifest.lock */,
 				A06890D826D5D7A900D1BC36 /* Sources */,
 				A06890D926D5D7A900D1BC36 /* Frameworks */,
 				A06890DA26D5D7A900D1BC36 /* Resources */,
@@ -210,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A06890F626D5D7A900D1BC36 /* Build configuration list for PBXNativeTarget "SwiftyPickUITests" */;
 			buildPhases = (
+				EA71610D34F7D5DD3CE28ACE /* [CP] Check Pods Manifest.lock */,
 				A06890E326D5D7A900D1BC36 /* Sources */,
 				A06890E426D5D7A900D1BC36 /* Frameworks */,
 				A06890E526D5D7A900D1BC36 /* Resources */,
@@ -253,6 +364,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A06890BD26D5D7A700D1BC36;
 			productRefGroup = A06890C726D5D7A700D1BC36 /* Products */;
@@ -271,8 +383,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06890D326D5D7A900D1BC36 /* Assets.xcassets in Resources */,
+				A07265B026D7C8C80052DE86 /* Base.strings in Resources */,
+				A07265BB26D7CADC0052DE86 /* Color.xcassets in Resources */,
 				A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */,
+				A06890D326D5D7A900D1BC36 /* Image.xcassets in Resources */,
 				A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */,
 				A044B10226D67D470051EDEA /* README.md in Resources */,
 				A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */,
@@ -314,6 +428,90 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run SwiftLint script\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		A07265AC26D7C7C70052DE86 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftGen script\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
+		A611F3AA9832E762ACEEC45A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyPickTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE60168B5D76430A210FED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyPick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA71610D34F7D5DD3CE28ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyPick-SwiftyPickUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -322,8 +520,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */,
+				A074DEC926D7CF88008D4A17 /* Assets+Generated.swift in Sources */,
 				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
 				A06890CC26D5D7A700D1BC36 /* SceneDelegate.swift in Sources */,
+				A074DEC826D7CF88008D4A17 /* Strings+Generated.swift in Sources */,
 				A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +532,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06890E126D5D7A900D1BC36 /* SwiftyPickTests.swift in Sources */,
+				A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */,
+				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
+				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
+				A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +567,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				A06890D526D5D7A900D1BC36 /* Base */,
+				A074DECF26D7D7D5008D4A17 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A07265B226D7C8C80052DE86 /* Base.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07265B126D7C8C80052DE86 /* en */,
+				A074DED026D7D7D5008D4A17 /* es */,
+			);
+			name = Base.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,6 +588,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -422,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -436,6 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -477,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -489,6 +704,7 @@
 		};
 		A06890F126D5D7A900D1BC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B44A6F2573545EA63BBBF3 /* Pods-SwiftyPick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +724,7 @@
 		};
 		A06890F226D5D7A900D1BC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE05B610B5D4F808C676964 /* Pods-SwiftyPick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -527,13 +744,14 @@
 		};
 		A06890F426D5D7A900D1BC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD532D86592440444784DE0 /* Pods-SwiftyPickTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP42Q79HUR;
 				INFOPLIST_FILE = SwiftyPickTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,13 +767,14 @@
 		};
 		A06890F526D5D7A900D1BC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF30A2A9E0CFA751FDAF638 /* Pods-SwiftyPickTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP42Q79HUR;
 				INFOPLIST_FILE = SwiftyPickTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +790,7 @@
 		};
 		A06890F726D5D7A900D1BC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D144CC31D101D7CD1A420B6 /* Pods-SwiftyPick-SwiftyPickUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +811,7 @@
 		};
 		A06890F826D5D7A900D1BC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A3AECFDC3BCBEBDBCC908C /* Pods-SwiftyPick-SwiftyPickUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
