@@ -43,6 +43,10 @@ Every new piece of functionality will have a proper document explaining it's usa
 #### [Configuring Danger](Documentation/Danger.md)
 > Configure Danger and add a Github Action to run the script on every PR.
 
+### Fastlane
+#### [Configuring Fastlane](Documentation/Fastlane.md)
+> Configure Fastlane in your project and add a Github Action to run the tests on every PR to `main`.
+
 ### Github
 
 #### [Set up PR and Issue templates](Documentation/GithubTemplates.md)

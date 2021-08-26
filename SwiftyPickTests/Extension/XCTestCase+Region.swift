@@ -5,7 +5,6 @@
 //  Created by Manu Herrera on 26/08/2021.
 //
 
-@testable import SwiftyPick
 import XCTest
 
 enum CountryISOCode {

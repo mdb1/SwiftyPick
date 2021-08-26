@@ -29,7 +29,6 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:SwiftyPick.xcodeproj",
         "identifier" : "A06890DB26D5D7A900D1BC36",

@@ -1,4 +1,4 @@
-platform :ios, '14.5'
+# platform :ios, '14.3'
 
 # ignore all warnings from all dependencies
 inhibit_all_warnings!
