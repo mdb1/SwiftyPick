@@ -11,7 +11,7 @@ And unit tests for the Localizable strings.
 > SwiftGen is a tool to automatically generate Swift code for resources of your projects (like images, localized strings, etc), to make them type-safe to use.
 
 ## Usage
-In this project, we are using `SwiftGen` to generate: `colors`, `images` and `strings`. As it can be seen in the [config file](../swiftgen.yml):
+In this project, we are using `SwiftGen` to generate: `images` and `strings`. As it can be seen in the [config file](../swiftgen.yml):
 ```yml
 strings:
   inputs:
@@ -23,7 +23,6 @@ strings:
 xcassets:
   inputs:
     - SwiftyPick/Resources/Assets/Image.xcassets
-    - SwiftyPick/Resources/Assets/Color.xcassets
   outputs:
     - templateName: swift5
       params:
@@ -105,3 +104,5 @@ Write a script that:
 4. Build the project and add the `generated` files to Xcode.
 5. Optionally create UnitTestPlans and add similar unit tests to the ones in this project. 
 
+## Colors
+The color generation has been moved out of SwiftGen in order to support different Color Palettes. See [ColorPalette](../ColorPalette.md) for more info.

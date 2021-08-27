@@ -9,5 +9,6 @@ import Foundation
 
 /// Constants used in the presentation layer.
 enum Constants {
-    
+    /// Key that specifies that we are on a test environment
+    static let testPath = "XCTestConfigurationFilePath"
 }

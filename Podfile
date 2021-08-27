@@ -1,20 +1,23 @@
-# platform :ios, '14.3'
+platform :ios, '14.3'
+use_frameworks!
 
 # ignore all warnings from all dependencies
 inhibit_all_warnings!
 
+def app_pods
+  pod 'SwiftGen', '6.4.0', :inhibit_warnings => true
+end
+
 target 'SwiftyPick' do
 
-  use_frameworks!
+  app_pods
 
-  # Pods for SwiftyPick
-  pod 'SwiftGen', '6.4.0', :inhibit_warnings => true
+end
 
-  target 'SwiftyPickTests' do
-    inherit! :search_paths
-  end
+target 'SwiftyPickTests' do
+  app_pods
+end
 
-  target 'SwiftyPickUITests' do
-  end
+target 'SwiftyPickUITests' do
 
 end

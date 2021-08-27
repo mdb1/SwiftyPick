@@ -55,16 +55,9 @@ extension UIColor.Palette {
     /// - Parameter semanticColor: color name (Should be one defined in the XCAssets)
     /// - Returns: The color object
     func assetCatalogColor(named semanticColor: ColorNames) -> UIColor {
-        #if os(macOS)
-        guard let color = NSColor(named: "\(self.name)/\(semanticColor)") else {
-            fatalError("Couldn't find color for name: \(semanticColor)")
-        }
-        return color
-        #else
         guard let color = UIColor(named: "\(self.name)/\(semanticColor)") else {
             fatalError("Couldn't find color for name: \(semanticColor)")
         }
         return color
-        #endif
     }
 }

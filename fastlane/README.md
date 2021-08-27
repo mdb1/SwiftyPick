@@ -31,16 +31,26 @@ Build the app
 fastlane ios unit_tests
 ```
 Run the unit tests
+### ios unit_tests_us
+```
+fastlane ios unit_tests_us
+```
+Run the unit tests (US Config)
+### ios unit_tests_arg
+```
+fastlane ios unit_tests_arg
+```
+Run the unit tests (ARG Config)
+### ios ui_tests
+```
+fastlane ios ui_tests
+```
+Run the UI tests
 ### ios swiftlint_strict
 ```
 fastlane ios swiftlint_strict
 ```
 Run swiftlint in strict mode
-### ios test_coverage
-```
-fastlane ios test_coverage
-```
-Check test coverage
 
 ----
 

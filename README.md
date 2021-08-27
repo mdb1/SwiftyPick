@@ -24,7 +24,8 @@ Every new piece of functionality will have a proper document explaining it's usa
 ## Code
 
 ### Extensions
-`// TODO //`
+
+#### [Add support for multiple Color Palettes](Documentation/ColorPalette.md)
 
 ### Features
 

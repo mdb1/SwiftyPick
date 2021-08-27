@@ -66,7 +66,8 @@ class ColorTests: XCTestCase {
     private func assertHexAndColorMatch(_ all: [(color: UIColor, hex: String)]) {
         all.forEach({
             guard let colorHex = $0.color.hexString() else {
-                return assertionFailure("No hex for color: \($0.color.name ?? "")")
+                assertionFailure("No hex for color: \($0.color.name ?? "")")
+                return
             }
             XCTAssertEqual(colorHex, $0.hex)
         })
