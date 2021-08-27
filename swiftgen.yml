@@ -8,7 +8,6 @@
  xcassets:
    inputs:
      - SwiftyPick/Resources/Assets/Image.xcassets
-     - SwiftyPick/Resources/Assets/Color.xcassets
    outputs:
      - templateName: swift5
        params:
