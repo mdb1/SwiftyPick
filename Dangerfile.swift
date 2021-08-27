@@ -1,4 +1,6 @@
 import Danger
+import DangerSwiftCoverage
+import DangerXCodeSummary
 
 let danger = Danger()
 
@@ -11,7 +13,12 @@ let changedFiles = danger.github.pullRequest.changedFiles!
 
 // Check PR size Threshold
 if (additions + deletions > bigPRThreshold) {
-    warn("PR size seems relatively large. ✂️ If this PR contains multiple changes, please split each into separate PR will helps faster, easier review.")
+    warn(
+        """
+        PR size seems relatively large. ✂️ If this PR contains multiple changes, please split each into separate PR \
+        will helps faster, easier review.
+        """
+    )
 }
 
 // Pull request body validation
@@ -36,7 +43,12 @@ if testFiles.isEmpty {
     warn("PR does not contain any files related to unit tests ✅ (ignore if your changes do not require tests)")
 }
 
-// MARK: - SwiftLint
-//SwiftLint.lint() - TODO: Make this work
-
 message("🎉 The PR added \(additions) and removed \(deletions) lines. 🗂 \(changedFiles) files changed.")
+
+let report = XCodeSummary(filePath: "result.json")
+report.report()
+
+Coverage.xcodeBuildCoverage(
+    .derivedDataFolder("build"),
+    minimumCoverage: 50
+)
