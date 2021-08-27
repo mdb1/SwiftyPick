@@ -15,8 +15,41 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Lane to run the unit tests"
-  lane :unit_tests do
-    run_tests(testplan: "UnitTestsPlan", skip_testing: "SwiftyPickUITests", workspace: "SwiftyPick.xcworkspace")
+  desc "Sanity checks to run on CI"
+  lane :sanity_checks do
+    swiftlint_strict
+    unit_tests
   end
+
+  desc "Build the app"
+  lane :build do
+    cocoapods
+    gym(skip_package_ipa: true)
+  end
+
+  desc "Run the unit tests"
+  lane :unit_tests do
+    run_tests(
+	testplan: "UnitTestsPlan", 
+	skip_testing: "SwiftyPickUITests", 
+	workspace: "SwiftyPick.xcworkspace"
+    )
+  end
+
+  desc "Run swiftlint in strict mode"
+  lane :swiftlint_strict do
+    swiftlint(strict: true)
+  end
+
+  desc "Check test coverage"
+  lane :test_coverage do
+    xcov(
+	workspace: "SwiftyPick.xcworkspace",
+	html_report: false,
+	markdown_report: true
+    )
+  end
+
+  
+
 end

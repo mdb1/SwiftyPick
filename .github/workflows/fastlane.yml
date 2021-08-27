@@ -19,4 +19,4 @@ jobs:
     - name: Bundle Install
       run: bundle install
     - name: Unit tests
-      run: bundle exec fastlane unit_tests
+      run: bundle exec fastlane sanity_checks

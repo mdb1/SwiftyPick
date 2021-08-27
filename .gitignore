@@ -28,3 +28,5 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+fastlane/xcov_report/*
+!fastlane/xcov_report/report.md
