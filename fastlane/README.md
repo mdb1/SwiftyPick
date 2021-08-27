@@ -16,11 +16,31 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
+### ios sanity_checks
+```
+fastlane ios sanity_checks
+```
+Sanity checks to run on CI
+### ios build
+```
+fastlane ios build
+```
+Build the app
 ### ios unit_tests
 ```
 fastlane ios unit_tests
 ```
-Lane to run the unit tests
+Run the unit tests
+### ios swiftlint_strict
+```
+fastlane ios swiftlint_strict
+```
+Run swiftlint in strict mode
+### ios test_coverage
+```
+fastlane ios test_coverage
+```
+Check test coverage
 
 ----
 
