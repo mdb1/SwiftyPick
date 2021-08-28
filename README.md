@@ -17,7 +17,7 @@ Every new piece of functionality will have a proper document explaining it's usa
  
  ### CocoaPods
  > Run `pod install` on the root of the project
- > Open `SwiftyPick.xcworkspace` with Xcode
+ >> Open `SwiftyPick.xcworkspace` with Xcode
 
 # Features 🚀
 
@@ -61,6 +61,27 @@ Every new piece of functionality will have a proper document explaining it's usa
 ### Scripts
 
 * [Sort Project files alphabetically](Documentation/SortProject.md): Keep the Xcode project files sorted alphabetically and avoid conflicts in the `.pbxproj` file.
+
+# TODOs
+This is the list of things I want to add to the project in the near future:
+
+- [ ] Useful UIKit Autolayout extension (ie: `add(_ subview: UIView, constraints: [NSLayoutConstraints])`)
+- [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
+- [ ] NumberFormatter + Regional unit tests (ie: check the `,` or `.` separator for decimals/thousands depending on the region)
+- [ ] CurrencyFormatter + Regional unit tests
+- [ ] DateFormatter + Regional unit tests
+- [ ] Lightweight `URLSession` networking layer
+- [ ] Dynamic Fonts (For accessibility)
+- [ ] UITests layer using Page Object pattern
+- [ ] Schemes (prod/dev)
+- [ ] UserDefaults easy access / FeatureFlags using UserDefaults
+- [ ] UIView extension with some basic animations
+- [ ] UITableViewCell/UICollectionViewCell extension for `register`, `dequeue`, and `cellReuseIdentifier`
+- [ ] Firebase integration (Analytics/Crashlytics/AB Testing/Flags)
+- [ ] Custom Operators from the `Advanced Swift` book
+- [ ] GraphQL support
+- [ ] A tableview in the home, where each cell will be the entry point to each feature (ie: color palettes, networking call via http, networking via graphQL, UI components, animations, formatters, etc)
+- [ ] Settings view: dark mode, color palette, app icon, local feature flags, display backend calls for debug, change accessibility features, etc
 
 # Contributing
 
