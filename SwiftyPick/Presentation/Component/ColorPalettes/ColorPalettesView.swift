@@ -10,8 +10,8 @@ import UIKit
 /// This view is a representation of the colors in the color palettes.
 final class ColorPalettesView: UIView {
 
-    private var stackView: UIStackView!
-    private var palette: UIColor.Palette!
+    private(set) var stackView: UIStackView!
+    private(set) var palette: UIColor.Palette!
 
     convenience init(palette: UIColor.Palette) {
         self.init(frame: .zero)
