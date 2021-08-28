@@ -31,16 +31,21 @@ Build the app
 fastlane ios unit_tests
 ```
 Run the unit tests
-### ios unit_tests_us
+### ios unit_tests_full_plan
 ```
-fastlane ios unit_tests_us
+fastlane ios unit_tests_full_plan
 ```
-Run the unit tests (US Config)
-### ios unit_tests_arg
+Run the unit tests default plan
+### ios unit_tests_regional_us
 ```
-fastlane ios unit_tests_arg
+fastlane ios unit_tests_regional_us
 ```
-Run the unit tests (ARG Config)
+Run the regional unit tests (US Config)
+### ios unit_tests_regional_arg
+```
+fastlane ios unit_tests_regional_arg
+```
+Run the regional unit tests (ARG Config)
 ### ios ui_tests
 ```
 fastlane ios ui_tests
