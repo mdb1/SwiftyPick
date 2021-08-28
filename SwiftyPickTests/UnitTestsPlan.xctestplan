@@ -20,7 +20,6 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : false,
     "targetForVariableExpansion" : {
       "containerPath" : "container:SwiftyPick.xcodeproj",
       "identifier" : "A06890C526D5D7A700D1BC36",
@@ -29,9 +28,6 @@
   },
   "testTargets" : [
     {
-      "skippedTests" : [
-        "ColorTests"
-      ],
       "target" : {
         "containerPath" : "container:SwiftyPick.xcodeproj",
         "identifier" : "A06890DB26D5D7A900D1BC36",
