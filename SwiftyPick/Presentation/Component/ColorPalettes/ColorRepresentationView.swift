@@ -10,9 +10,9 @@ import UIKit
 /// This view is a representation of one color in the palette.
 final class ColorRepresentationView: UIView {
 
-    private var nameLabel: UILabel!
-    private var color: UIColor!
-    private var palette: UIColor.Palette!
+    private(set) var nameLabel: UILabel!
+    private(set) var color: UIColor!
+    private(set) var palette: UIColor.Palette!
 
     convenience init(color: UIColor, palette: UIColor.Palette) {
         self.init(frame: .zero)

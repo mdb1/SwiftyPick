@@ -33,6 +33,8 @@
 		A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECD26D7D713008D4A17 /* ColorTests.swift */; };
 		A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */; };
 		A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */; };
+		A0E0115326D9F07F00505456 /* ColorRepresentationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */; };
+		A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */; };
 		C0E65AAABCE72AA6334C71F1 /* Pods_SwiftyPickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FF409D3A2FF26F37E442BC /* Pods_SwiftyPickUITests.framework */; };
 		DA43DD1CCC32E8A44FBC9AC7 /* Pods_SwiftyPickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB34231AEDAE8F37BA1FF7 /* Pods_SwiftyPickTests.framework */; };
 /* End PBXBuildFile section */
@@ -100,6 +102,8 @@
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
 		A0D951F326D7DFCE00C7F61B /* SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftGen.md; sourceTree = "<group>"; };
+		A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRepresentationViewTests.swift; sourceTree = "<group>"; };
+		A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettesViewTests.swift; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
@@ -160,13 +164,13 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		A03CAF4826D92661008FA41A /* ColorPalettesView */ = {
+		A03CAF4826D92661008FA41A /* ColorPalettes */ = {
 			isa = PBXGroup;
 			children = (
 				A03CAF4926D9267E008FA41A /* ColorPalettesView.swift */,
 				A03CAF4B26D927A6008FA41A /* ColorRepresentationView.swift */,
 			);
-			path = ColorPalettesView;
+			path = ColorPalettes;
 			sourceTree = "<group>";
 		};
 		A03CAF4D26D92C59008FA41A /* Extension */ = {
@@ -182,7 +186,7 @@
 		A03CAF4E26D92C61008FA41A /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				A03CAF4826D92661008FA41A /* ColorPalettesView */,
+				A03CAF4826D92661008FA41A /* ColorPalettes */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -200,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				A03CAF5726D95624008FA41A /* Common */,
+				A0E0115426D9F35800505456 /* Component */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -345,6 +350,23 @@
 				A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0E0115426D9F35800505456 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A0E0115526D9F36F00505456 /* ColorPalettes */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A0E0115526D9F36F00505456 /* ColorPalettes */ = {
+			isa = PBXGroup;
+			children = (
+				A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */,
+				A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */,
+			);
+			path = ColorPalettes;
 			sourceTree = "<group>";
 		};
 		A0FAAEB126D6D1F000B4F1A4 /* Configuration */ = {
@@ -637,6 +659,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */,
+				A0E0115326D9F07F00505456 /* ColorRepresentationViewTests.swift in Sources */,
 				A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */,
 				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
