@@ -21,8 +21,9 @@ platform :ios do
   lane :sanity_checks do
     swiftlint_strict
     # just unit testing for now, due to a problem with Github Actions
-    unit_tests_us
-    unit_tests_arg
+    unit_tests_full_plan
+    unit_tests_regional_us
+    unit_tests_regional_arg
     # ui_tests
   end
 
@@ -41,18 +42,29 @@ platform :ios do
     )
   end
 
-  desc "Run the unit tests (US Config)"
-  lane :unit_tests_us do
+  desc "Run the unit tests default plan"
+  lane :unit_tests_full_plan do
     run_tests(
       device: "iPhone SE (2nd generation)",
+      testplan: "UnitTestsPlan",
+      only_test_configurations: "System Config"
+    )
+  end
+
+  desc "Run the regional unit tests (US Config)"
+  lane :unit_tests_regional_us do
+    run_tests(
+      device: "iPhone SE (2nd generation)",
+      testplan: "RegionalTestsPlan",
       only_test_configurations: "United States Config - English"
     )
   end
 
-  desc "Run the unit tests (ARG Config)"
-  lane :unit_tests_arg do
+  desc "Run the regional unit tests (ARG Config)"
+  lane :unit_tests_regional_arg do
     run_tests(
       device: "iPhone SE (2nd generation)",
+      testplan: "RegionalTestsPlan",
       only_test_configurations: "Argentina Config - Spanish"
     )
   end
