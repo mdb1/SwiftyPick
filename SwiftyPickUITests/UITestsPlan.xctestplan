@@ -2,7 +2,7 @@
   "configurations" : [
     {
       "id" : "BD0DB74A-2767-4478-9E69-0F1AEFB9BEAD",
-      "name" : "Configuration 1",
+      "name" : "UITests-Config",
       "options" : {
 
       }

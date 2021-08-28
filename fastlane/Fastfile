@@ -12,13 +12,18 @@
 
 # update_fastlane
 
+ENV["FASTLANE_EXPLICIT_OPEN_SIMULATOR"] = "2"
+
 default_platform(:ios)
 
 platform :ios do
   desc "Sanity checks to run on CI"
   lane :sanity_checks do
     swiftlint_strict
-    unit_tests
+    # just unit testing for now, due to a problem with Github Actions
+    unit_tests_us
+    unit_tests_arg
+    # ui_tests
   end
 
   desc "Build the app"
@@ -29,27 +34,36 @@ platform :ios do
 
   desc "Run the unit tests"
   lane :unit_tests do
+    run_tests(device: "iPhone SE (2nd generation)")
+  end
+
+  desc "Run the unit tests (US Config)"
+  lane :unit_tests_us do
     run_tests(
-	testplan: "UnitTestsPlan", 
-	skip_testing: "SwiftyPickUITests", 
-	workspace: "SwiftyPick.xcworkspace"
+      device: "iPhone SE (2nd generation)",
+      only_test_configurations: "United States Config - English"
+    )
+  end
+
+  desc "Run the unit tests (ARG Config)"
+  lane :unit_tests_arg do
+    run_tests(
+      device: "iPhone SE (2nd generation)",
+      only_test_configurations: "Argentina Config - Spanish"
+    )
+  end
+
+  desc "Run the UI tests"
+  lane :ui_tests do
+    run_tests(
+	device: "iPhone SE (2nd generation)",
+	testplan:"UITestsPlan"
     )
   end
 
   desc "Run swiftlint in strict mode"
   lane :swiftlint_strict do
     swiftlint(strict: true)
-  end
-
-  desc "Check test coverage"
-  lane :test_coverage do
-    xcov(
-	workspace: "SwiftyPick.xcworkspace",
-	html_report: false,
-	markdown_report: true
-    )
-  end
-
-  
+  end  
 
 end
