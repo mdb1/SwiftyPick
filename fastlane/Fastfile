@@ -10,7 +10,7 @@
 #     https://docs.fastlane.tools/plugins/available-plugins
 #
 
-# update_fastlane
+update_fastlane
 
 ENV["FASTLANE_EXPLICIT_OPEN_SIMULATOR"] = "2"
 
@@ -34,7 +34,11 @@ platform :ios do
 
   desc "Run the unit tests"
   lane :unit_tests do
-    run_tests(device: "iPhone SE (2nd generation)")
+    run_tests(
+      device: "iPhone SE (2nd generation)",
+      force_quit_simulator: true,
+      reset_simulator: true
+    )
   end
 
   desc "Run the unit tests (US Config)"
