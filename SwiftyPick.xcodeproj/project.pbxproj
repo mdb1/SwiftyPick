@@ -77,6 +77,8 @@
 		A044B10126D67D470051EDEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A044B10426D6868C0051EDEA /* SwiftLint.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SwiftLint.md; sourceTree = "<group>"; };
 		A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerEmptyFile.swift; sourceTree = "<group>"; };
+		A05FB85926DA7A72009C6A7E /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestsPlan.xctestplan; sourceTree = "<group>"; };
+		A05FB85B26DA7BFA009C6A7E /* TestPlans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TestPlans.md; sourceTree = "<group>"; };
 		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
 		A06890C626D5D7A700D1BC36 /* SwiftyPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06890C926D5D7A700D1BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +99,7 @@
 		A074DECD26D7D713008D4A17 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 		A074DECF26D7D7D5008D4A17 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A074DED026D7D7D5008D4A17 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Base.strings; sourceTree = "<group>"; };
-		A074DED126D7D926008D4A17 /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = UnitTestsPlan.xctestplan; path = SwiftyPickTests/UnitTestsPlan.xctestplan; sourceTree = SOURCE_ROOT; };
+		A074DED126D7D926008D4A17 /* RegionalTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = RegionalTestsPlan.xctestplan; path = SwiftyPickTests/RegionalTestsPlan.xctestplan; sourceTree = SOURCE_ROOT; };
 		A074DED226D7D9B1008D4A17 /* UITestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsPlan.xctestplan; sourceTree = "<group>"; };
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
 				A0D951F326D7DFCE00C7F61B /* SwiftGen.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
+				A05FB85B26DA7BFA009C6A7E /* TestPlans.md */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
@@ -283,7 +286,8 @@
 				A03CAF5626D9561B008FA41A /* Presentation */,
 				A074DECA26D7D47B008D4A17 /* Resources */,
 				A06890E226D5D7A900D1BC36 /* Info.plist */,
-				A074DED126D7D926008D4A17 /* UnitTestsPlan.xctestplan */,
+				A074DED126D7D926008D4A17 /* RegionalTestsPlan.xctestplan */,
+				A05FB85926DA7A72009C6A7E /* UnitTestsPlan.xctestplan */,
 			);
 			path = SwiftyPickTests;
 			sourceTree = "<group>";

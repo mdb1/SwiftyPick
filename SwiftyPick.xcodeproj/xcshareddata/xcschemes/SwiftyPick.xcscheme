@@ -29,11 +29,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:SwiftyPickTests/UnitTestsPlan.xctestplan"
-            default = "YES">
+            reference = "container:SwiftyPickTests/RegionalTestsPlan.xctestplan">
          </TestPlanReference>
          <TestPlanReference
             reference = "container:SwiftyPickUITests/UITestsPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:SwiftyPickTests/UnitTestsPlan.xctestplan"
+            default = "YES">
          </TestPlanReference>
       </TestPlans>
       <Testables>
