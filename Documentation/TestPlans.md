@@ -21,27 +21,21 @@ In order to run the new configurations on CI (Using FastLane) we need to modify 
   desc "Run the unit tests default plan"
   lane :unit_tests_full_plan do
     run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "UnitTestsPlan",
-      only_test_configurations: "System Config"
+      testplan: "UnitTestsPlan"
     )
   end
 
   desc "Run the regional unit tests (US Config)"
-  lane :unit_tests_regional_us do
+  lane :unit_tests_regional do
     run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "RegionalTestsPlan",
-      only_test_configurations: "United States Config - English"
+      testplan: "RegionalTestsPlan"
     )
   end
 
-  desc "Run the regional unit tests (ARG Config)"
-  lane :unit_tests_regional_arg do
+  desc "Run the UI tests"
+  lane :ui_tests do
     run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "RegionalTestsPlan",
-      only_test_configurations: "Argentina Config - Spanish"
+      testplan: "UITestsPlan"
     )
   end
 ```
@@ -51,20 +45,16 @@ Then in the lane you will run on CI:
   desc "Sanity checks to run on CI"
   lane :sanity_checks do
     unit_tests_full_plan
-    unit_tests_regional_us
-    unit_tests_regional_arg
+    unit_tests_regional
   end
 ```
 
-In this case, I've added a new lane for each of the configurations:
+In this case, we've added a new lane for each of the configurations:
 1. The System Configuration that will run all the tests (`UnitTestsPlan`).
-2. The US Regional Config, that will only run the tests in the `RegionalTestsPlan` with the region set to United States 🇺🇸 and the language set to English.
-3. The US Regional Config, that will only run the tests in the `RegionalTestsPlan` with the region set to Argentina 🇦🇷 and the language set to Spanish.
+2. The Regional Config, that will only run the tests in the `RegionalTestsPlan` using all it's configurations
+    * 🇺🇸 United States with English language.
+    * 🇦🇷 Argentina with Spanish language.
 
-Adding new regions would only imply adding one more lane.
-
-### Disclaimer
-We could actually use only one lane for the RegionalTests and set the array of configs (us, arg, etc) to the  `only_test_configurations` property. However, currently we are having a lot of problems with Github Actions taking too long to boot the iOS simulator, and failing the tests due to that. So a workaround for now is to run each configuration in a different lane. This seems to have solved the problem.
 
 
 

@@ -12,8 +12,6 @@
 
 update_fastlane
 
-ENV["FASTLANE_EXPLICIT_OPEN_SIMULATOR"] = "2"
-
 default_platform(:ios)
 
 platform :ios do
@@ -22,8 +20,7 @@ platform :ios do
     swiftlint_strict
     # just unit testing for now, due to a problem with Github Actions
     unit_tests_full_plan
-    unit_tests_regional_us
-    unit_tests_regional_arg
+    unit_tests_regional
     # ui_tests
   end
 
@@ -33,47 +30,24 @@ platform :ios do
     gym(skip_package_ipa: true)
   end
 
-  desc "Run the unit tests"
-  lane :unit_tests do
-    run_tests(
-      device: "iPhone SE (2nd generation)",
-      force_quit_simulator: true,
-      reset_simulator: true
-    )
-  end
-
   desc "Run the unit tests default plan"
   lane :unit_tests_full_plan do
     run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "UnitTestsPlan",
-      only_test_configurations: "System Config"
+      testplan: "UnitTestsPlan"
     )
   end
 
   desc "Run the regional unit tests (US Config)"
-  lane :unit_tests_regional_us do
+  lane :unit_tests_regional do
     run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "RegionalTestsPlan",
-      only_test_configurations: "United States Config - English"
-    )
-  end
-
-  desc "Run the regional unit tests (ARG Config)"
-  lane :unit_tests_regional_arg do
-    run_tests(
-      device: "iPhone SE (2nd generation)",
-      testplan: "RegionalTestsPlan",
-      only_test_configurations: "Argentina Config - Spanish"
+      testplan: "RegionalTestsPlan"
     )
   end
 
   desc "Run the UI tests"
   lane :ui_tests do
     run_tests(
-	device: "iPhone SE (2nd generation)",
-	testplan:"UITestsPlan"
+      testplan: "UITestsPlan"
     )
   end
 
