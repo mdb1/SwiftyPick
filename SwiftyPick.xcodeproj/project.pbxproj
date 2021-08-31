@@ -37,6 +37,8 @@
 		A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */; };
 		A0ED2FA726DEB8B5008AB6C6 /* UIView+AddSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FA626DEB8B5008AB6C6 /* UIView+AddSubview.swift */; };
 		A0ED2FA926DEC279008AB6C6 /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FA826DEC279008AB6C6 /* UIView+Pin.swift */; };
+		A0ED2FAC26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */; };
+		A0ED2FAE26DEDFC8008AB6C6 /* UIView+PinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */; };
 		C0E65AAABCE72AA6334C71F1 /* Pods_SwiftyPickUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FF409D3A2FF26F37E442BC /* Pods_SwiftyPickUITests.framework */; };
 		DA43DD1CCC32E8A44FBC9AC7 /* Pods_SwiftyPickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB34231AEDAE8F37BA1FF7 /* Pods_SwiftyPickTests.framework */; };
 /* End PBXBuildFile section */
@@ -110,6 +112,8 @@
 		A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettesViewTests.swift; sourceTree = "<group>"; };
 		A0ED2FA626DEB8B5008AB6C6 /* UIView+AddSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubview.swift"; sourceTree = "<group>"; };
 		A0ED2FA826DEC279008AB6C6 /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewTests.swift"; sourceTree = "<group>"; };
+		A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinTests.swift"; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
@@ -213,6 +217,7 @@
 			children = (
 				A03CAF5726D95624008FA41A /* Common */,
 				A0E0115426D9F35800505456 /* Component */,
+				A0ED2FAA26DEDCEE008AB6C6 /* Extension */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -377,6 +382,15 @@
 				A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */,
 			);
 			path = ColorPalettes;
+			sourceTree = "<group>";
+		};
+		A0ED2FAA26DEDCEE008AB6C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */,
+				A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A0FAAEB126D6D1F000B4F1A4 /* Configuration */ = {
@@ -677,6 +691,8 @@
 				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
 				A03CAF5926D95634008FA41A /* SpacingTests.swift in Sources */,
+				A0ED2FAC26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift in Sources */,
+				A0ED2FAE26DEDFC8008AB6C6 /* UIView+PinTests.swift in Sources */,
 				A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
