@@ -31,14 +31,7 @@ private extension ColorPalettesView {
         stackView.axis = .vertical
         stackView.alignment = .fill
         stackView.distribution = .fill
-        stackView.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(stackView)
-        NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(equalTo: topAnchor),
-            stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            stackView.bottomAnchor.constraint(equalTo: bottomAnchor)
-        ])
+        addSubview(stackView, insets: .none)
 
         palette.allColors.forEach {
             stackView.addArrangedSubview(
