@@ -19,9 +19,5 @@ jobs:
       shell: bash
     - name: Bundle Install
       run: bundle install
-    - name: Get the simulator up
-      run: |
-        fastlane run reset_simulator_contents
-        xcrun instruments -w 'iPhone SE (2nd generation)' || sleep 15
     - name: Sanity tests
-      run: bundle exec fastlane sanity_checks --verbose
+      run: bundle exec fastlane sanity_checks
