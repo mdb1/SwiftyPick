@@ -35,13 +35,13 @@ class ColorTests: XCTestCase {
         let palette = UIColor.Palette.default
         let all = [
             ColorTuple(palette.backgroundMain, "#FFFFFF"),
-            ColorTuple(palette.backgroundMid, "#D1D1D6"),
+            ColorTuple(palette.backgroundMid, "#D1D1D5"),
             ColorTuple(palette.backgroundAlt, "#000000"),
             ColorTuple(palette.textPrimary, "#000000"),
             ColorTuple(palette.textAlt, "#FFFFFF"),
-            ColorTuple(palette.primary, "#F6131E"),
-            ColorTuple(palette.secondary, "#467599"),
-            ColorTuple(palette.tertiary, "#57CADB")
+            ColorTuple(palette.primary, "#E1352E"),
+            ColorTuple(palette.secondary, "#507395"),
+            ColorTuple(palette.tertiary, "#76C7D8")
         ]
 
         assertHexAndColorMatch(all)
@@ -50,14 +50,14 @@ class ColorTests: XCTestCase {
     private func assertFlashyHexadecimals() {
         let palette = UIColor.Palette.flashy
         let all = [
-            ColorTuple(palette.backgroundMain, "#06E4F6"),
-            ColorTuple(palette.backgroundMid, "#007AFF"),
-            ColorTuple(palette.backgroundAlt, "#1C1B44"),
-            ColorTuple(palette.textPrimary, "#000000"),
-            ColorTuple(palette.textAlt, "#C7C7C7"),
-            ColorTuple(palette.primary, "#F6131E"),
-            ColorTuple(palette.secondary, "#46D999"),
-            ColorTuple(palette.tertiary, "#E98DDB")
+            ColorTuple(palette.backgroundMain, "#68E1F3"),
+            ColorTuple(palette.backgroundMid, "#3477F6"),
+            ColorTuple(palette.backgroundAlt, "#1B1B41"),
+            ColorTuple(palette.textPrimary, "#3F3F3F"),
+            ColorTuple(palette.textAlt, "#C6C5C6"),
+            ColorTuple(palette.primary, "#E1362E"),
+            ColorTuple(palette.secondary, "#73D69D"),
+            ColorTuple(palette.tertiary, "#DB90D6")
         ]
 
         assertHexAndColorMatch(all)
