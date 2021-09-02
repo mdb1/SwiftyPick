@@ -5,12 +5,11 @@
 //  Created by Manu Herrera on 27/08/2021.
 //
 
-import XCTest
 @testable import SwiftyPick
+import XCTest
 
 final class SpacingTests: XCTestCase {
-
-    static let spacings = [
+    private static let spacings = [
         Constants.Spacing.none,
         Constants.Spacing.small,
         Constants.Spacing.medium,
@@ -30,5 +29,4 @@ final class SpacingTests: XCTestCase {
     func testDivisibleByEight() {
         SpacingTests.spacings.forEach { XCTAssertEqual(Int($0) % 8, 0) }
     }
-
 }

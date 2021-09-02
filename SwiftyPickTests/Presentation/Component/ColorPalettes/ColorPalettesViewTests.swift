@@ -5,11 +5,10 @@
 //  Created by Manu Herrera on 28/08/2021.
 //
 
-import XCTest
 @testable import SwiftyPick
+import XCTest
 
 final class ColorPalettesViewTests: XCTestCase {
-
     private var sut: ColorPalettesView?
 
     override func tearDown() {

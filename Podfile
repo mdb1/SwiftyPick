@@ -5,7 +5,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 def app_pods
-  pod 'SwiftGen', '6.4.0', :inhibit_warnings => true
+  pod 'SwiftGen', '6.4.0'
 end
 
 target 'SwiftyPick' do

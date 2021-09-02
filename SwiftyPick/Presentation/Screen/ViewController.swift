@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.Palette.default.backgroundMain
@@ -31,5 +30,4 @@ class ViewController: UIViewController {
             colorPaletteView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
     }
-
 }

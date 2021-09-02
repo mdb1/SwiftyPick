@@ -47,7 +47,6 @@ extension UIColor {
             ]
         }
     }
-
 }
 
 extension UIColor.Palette {

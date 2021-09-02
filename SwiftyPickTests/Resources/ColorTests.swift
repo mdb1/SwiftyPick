@@ -5,12 +5,11 @@
 //  Created by Manu Herrera on 26/08/2021.
 //
 
-import XCTest
 @testable import SwiftyPick
+import XCTest
 
 class ColorTests: XCTestCase {
-
-    typealias ColorTuple = (color: UIColor, hex: String)
+    private typealias ColorTuple = (color: UIColor, hex: String)
 
     func testColorsExist() {
         UIColor.Palette.default.allColors.forEach {

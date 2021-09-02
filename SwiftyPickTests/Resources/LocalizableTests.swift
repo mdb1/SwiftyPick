@@ -5,11 +5,10 @@
 //  Created by Manu Herrera on 26/08/2021.
 //
 
-import XCTest
 @testable import SwiftyPick
+import XCTest
 
 class LocalizableTests: XCTestCase {
-
     // This shallow test is just to ensure that we didn't break the translation mechanism.
     func testGreetingTranslation() {
         let greetingHello = L10n.Greeting.hello

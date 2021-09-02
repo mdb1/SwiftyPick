@@ -9,7 +9,6 @@ import UIKit
 
 /// This view is a representation of the colors in the color palettes.
 final class ColorPalettesView: UIView {
-
     private(set) var stackView: UIStackView!
     private(set) var palette: UIColor.Palette!
 
@@ -19,7 +18,6 @@ final class ColorPalettesView: UIView {
         self.palette = palette
         setUp()
     }
-
 }
 
 // MARK: - View Set Up
