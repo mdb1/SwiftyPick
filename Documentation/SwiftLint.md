@@ -48,12 +48,14 @@ Then you need to execute `pod install`.
 In order to guarantee certain code standards, this repository has a lot of custom rules enabled:
 - anyobject_protocol
 - array_init
+- attributes
 - closure_body_length
 - closure_end_indentation
 - collection_alignment
 - contains_over_filter_is_empty
 - contains_over_first_not_nil
 - convenience_type
+- duplicate_imports
 - empty_collection_literal
 - empty_count
 - empty_string
@@ -70,6 +72,7 @@ In order to guarantee certain code standards, this repository has a lot of custo
 - last_where
 - let_var_whitespace
 - literal_expression_end_indentation
+- missing_docs
 - modifier_order
 - multiline_arguments
 - multiline_arguments_brackets
@@ -86,14 +89,21 @@ In order to guarantee certain code standards, this repository has a lot of custo
 - prefer_self_type_over_type_of_self
 - prohibited_interface_builder
 - prohibited_super_call
+- single_test_class
 - sorted_first_last
+- sorted_imports
 - switch_case_on_newline
+- test_case_accessibility
 - toggle_bool
 - unneeded_break_in_switch
 - unneeded_parentheses_in_closure_argument
 - unowned_variable_capture
 - untyped_error_in_catch
 - unused_import
+- vertical_parameter_alignment_on_call
+- vertical_whitespace_closing_braces
+- vertical_whitespace_opening_braces
+- xct_specific_matcher
 - yoda_condition
 
 ## Usage

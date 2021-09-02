@@ -5,11 +5,10 @@
 //  Created by Manu Herrera on 28/08/2021.
 //
 
-import XCTest
 @testable import SwiftyPick
+import XCTest
 
 final class ColorRepresentationViewTests: XCTestCase {
-
     private var sut: ColorRepresentationView?
 
     override func tearDown() {
