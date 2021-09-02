@@ -26,6 +26,7 @@ Every new piece of functionality will have a proper document explaining it's usa
 ### Extensions
 
 * [Add support for multiple Color Palettes](Documentation/ColorPalette.md)
+* [AutoLayout helper methods](Documentation/AutoLayout.md)
 
 ### Features
 

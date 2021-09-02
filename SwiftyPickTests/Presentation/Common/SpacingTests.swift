@@ -9,24 +9,24 @@
 import XCTest
 
 final class SpacingTests: XCTestCase {
-    private static let spacings = [
-        Constants.Spacing.none,
-        Constants.Spacing.small,
-        Constants.Spacing.medium,
-        Constants.Spacing.large,
-        Constants.Spacing.xLarge
+    private let spacings = [
+        Spacing.none,
+        Spacing.small,
+        Spacing.medium,
+        Spacing.large,
+        Spacing.xLarge
     ]
 
     func testAbsoluteValues() {
-        XCTAssertEqual(Constants.Spacing.none, 0)
-        XCTAssertEqual(Constants.Spacing.small, 8)
-        XCTAssertEqual(Constants.Spacing.medium, 16)
-        XCTAssertEqual(Constants.Spacing.large, 24)
-        XCTAssertEqual(Constants.Spacing.xLarge, 32)
+        XCTAssertEqual(Spacing.none.rawValue, 0)
+        XCTAssertEqual(Spacing.small.rawValue, 8)
+        XCTAssertEqual(Spacing.medium.rawValue, 16)
+        XCTAssertEqual(Spacing.large.rawValue, 24)
+        XCTAssertEqual(Spacing.xLarge.rawValue, 32)
     }
 
     /// All spacings should be divisible by 8.
     func testDivisibleByEight() {
-        SpacingTests.spacings.forEach { XCTAssertEqual(Int($0) % 8, 0) }
+        spacings.forEach { XCTAssertEqual(Int($0.rawValue) % 8, 0) }
     }
 }

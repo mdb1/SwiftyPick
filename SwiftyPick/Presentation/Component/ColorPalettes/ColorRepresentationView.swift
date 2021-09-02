@@ -10,6 +10,7 @@ import UIKit
 /// This view is a representation of one color in the palette.
 final class ColorRepresentationView: UIView {
     private(set) var nameLabel: UILabel!
+    private(set) var hexaLabel: UILabel!
     private(set) var color: UIColor!
     private(set) var palette: UIColor.Palette!
 
@@ -26,27 +27,53 @@ final class ColorRepresentationView: UIView {
 private extension ColorRepresentationView {
     func setUp() {
         backgroundColor = color
-        setUpLabel()
+        setUpLabels()
     }
 
-    func setUpLabel() {
-        // Future improvement: Move this to UIView helper methods in extensions
+    func setUpLabels() {
+        setUpNameLabel()
+        setUpHexaLabel()
+    }
+
+    func setUpNameLabel() {
         nameLabel = UILabel()
-        nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.textAlignment = .center
         nameLabel.text = color.name
-
         nameLabel.textColor = getTextColor()
 
-        addSubview(nameLabel)
-        NSLayoutConstraint.activate([
-            nameLabel.topAnchor.constraint(equalTo: topAnchor, constant: Constants.Spacing.medium),
-            nameLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            nameLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-            nameLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Constants.Spacing.medium),
-            nameLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
-            nameLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
-        ])
+        addSubview(
+            nameLabel,
+            constrainedBy: [
+                .top: .medium,
+                .bottom: .medium,
+                .leading: .medium
+            ]
+        )
+        nameLabel.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+    }
+
+    func setUpHexaLabel() {
+        hexaLabel = UILabel()
+        hexaLabel.textAlignment = .center
+        hexaLabel.text = color.hexString()
+        hexaLabel.textColor = getTextColor()
+
+        addSubview(
+            hexaLabel,
+            constrainedBy: [
+                .top: .medium,
+                .bottom: .medium,
+                .trailing: .medium
+            ]
+        )
+        hexaLabel.pin(
+            .leading,
+            to: .trailing,
+            of: nameLabel,
+            relatedBy: .greaterThanOrEqual,
+            constant: Spacing.large.rawValue
+        )
+        hexaLabel.setContentCompressionResistancePriority(.defaultHigh, for: .horizontal)
     }
 
     func getTextColor() -> UIColor {
