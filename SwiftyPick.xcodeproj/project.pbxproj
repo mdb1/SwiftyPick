@@ -107,6 +107,7 @@
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
 		A0CDC5A526E3C9E400347AC5 /* AutoLayout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AutoLayout.md; sourceTree = "<group>"; };
+		A0CDC5E126E3D1A200347AC5 /* Jazzy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Jazzy.md; sourceTree = "<group>"; };
 		A0D951F326D7DFCE00C7F61B /* SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftGen.md; sourceTree = "<group>"; };
 		A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRepresentationViewTests.swift; sourceTree = "<group>"; };
 		A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettesViewTests.swift; sourceTree = "<group>"; };
@@ -259,6 +260,7 @@
 				A064F88B26D8188A009335E9 /* Fastlane.md */,
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
+				A0CDC5E126E3D1A200347AC5 /* Jazzy.md */,
 				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
 				A0D951F326D7DFCE00C7F61B /* SwiftGen.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,
