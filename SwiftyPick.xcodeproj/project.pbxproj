@@ -21,7 +21,7 @@
 		A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10426D6868C0051EDEA /* SwiftLint.md */; };
 		A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */; };
 		A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890C926D5D7A700D1BC36 /* AppDelegate.swift */; };
-		A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ViewController.swift */; };
+		A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ColorPaletteViewController.swift */; };
 		A06890D326D5D7A900D1BC36 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06890D226D5D7A900D1BC36 /* Image.xcassets */; };
 		A06890D626D5D7A900D1BC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */; };
 		A06890EC26D5D7A900D1BC36 /* SwiftyPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890EB26D5D7A900D1BC36 /* SwiftyPickUITests.swift */; };
@@ -33,6 +33,11 @@
 		A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DECD26D7D713008D4A17 /* ColorTests.swift */; };
 		A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */; };
 		A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */; };
+		A0A5903F26E973C300EFCDF6 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */; };
+		A0A5904126E9755300EFCDF6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5904026E9755300EFCDF6 /* BaseViewController.swift */; };
+		A0A5904426E9799B00EFCDF6 /* ColorPalettePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5904326E9799B00EFCDF6 /* ColorPalettePresenter.swift */; };
+		A0A5904626E97C8B00EFCDF6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5904526E97C8B00EFCDF6 /* BaseView.swift */; };
+		A0A5904826E97CE700EFCDF6 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5904726E97CE600EFCDF6 /* ColorPaletteView.swift */; };
 		A0E0115326D9F07F00505456 /* ColorRepresentationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0115226D9F07F00505456 /* ColorRepresentationViewTests.swift */; };
 		A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0115626D9F39100505456 /* ColorPalettesViewTests.swift */; };
 		A0ED2FA726DEB8B5008AB6C6 /* UIView+AddSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FA626DEB8B5008AB6C6 /* UIView+AddSubview.swift */; };
@@ -86,7 +91,7 @@
 		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
 		A06890C626D5D7A700D1BC36 /* SwiftyPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06890C926D5D7A700D1BC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A06890CD26D5D7A700D1BC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A06890CD26D5D7A700D1BC36 /* ColorPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewController.swift; sourceTree = "<group>"; };
 		A06890D226D5D7A900D1BC36 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		A06890D526D5D7A900D1BC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06890D726D5D7A900D1BC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +112,11 @@
 		A074DED226D7D9B1008D4A17 /* UITestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsPlan.xctestplan; sourceTree = "<group>"; };
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
+		A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		A0A5904026E9755300EFCDF6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A0A5904326E9799B00EFCDF6 /* ColorPalettePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettePresenter.swift; sourceTree = "<group>"; };
+		A0A5904526E97C8B00EFCDF6 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A0A5904726E97CE600EFCDF6 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		A0CDC5A526E3C9E400347AC5 /* AutoLayout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AutoLayout.md; sourceTree = "<group>"; };
 		A0CDC5E126E3D1A200347AC5 /* Jazzy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Jazzy.md; sourceTree = "<group>"; };
 		A0D951F326D7DFCE00C7F61B /* SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SwiftGen.md; sourceTree = "<group>"; };
@@ -245,8 +255,9 @@
 		A03CAF6E26D9AEB3008FA41A /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				A0A5903D26E973B400EFCDF6 /* Base */,
+				A0A5904226E9798800EFCDF6 /* ColorPalette */,
 				A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */,
-				A06890CD26D5D7A700D1BC36 /* ViewController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -379,6 +390,26 @@
 				A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0A5903D26E973B400EFCDF6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */,
+				A0A5904526E97C8B00EFCDF6 /* BaseView.swift */,
+				A0A5904026E9755300EFCDF6 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A0A5904226E9798800EFCDF6 /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				A0A5904326E9799B00EFCDF6 /* ColorPalettePresenter.swift */,
+				A0A5904726E97CE600EFCDF6 /* ColorPaletteView.swift */,
+				A06890CD26D5D7A700D1BC36 /* ColorPaletteViewController.swift */,
+			);
+			path = ColorPalette;
 			sourceTree = "<group>";
 		};
 		A0E0115426D9F35800505456 /* Component */ = {
@@ -670,7 +701,13 @@
 			files = (
 				A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */,
 				A074DEC926D7CF88008D4A17 /* Assets+Generated.swift in Sources */,
+				A0A5903F26E973C300EFCDF6 /* BasePresenter.swift in Sources */,
+				A0A5904626E97C8B00EFCDF6 /* BaseView.swift in Sources */,
+				A0A5904126E9755300EFCDF6 /* BaseViewController.swift in Sources */,
+				A0A5904426E9799B00EFCDF6 /* ColorPalettePresenter.swift in Sources */,
 				A03CAF4A26D9267E008FA41A /* ColorPalettesView.swift in Sources */,
+				A0A5904826E97CE700EFCDF6 /* ColorPaletteView.swift in Sources */,
+				A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */,
 				A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */,
 				A03CAF5326D9477D008FA41A /* Constants.swift in Sources */,
 				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
@@ -681,7 +718,6 @@
 				A03CAF5026D92C75008FA41A /* UIColor+Palette.swift in Sources */,
 				A0ED2FA726DEB8B5008AB6C6 /* UIView+AddSubview.swift in Sources */,
 				A0ED2FA926DEC279008AB6C6 /* UIView+Pin.swift in Sources */,
-				A06890CE26D5D7A700D1BC36 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

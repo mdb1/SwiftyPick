@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = ViewController()
+        window.rootViewController = ColorPaletteViewController(presenter: ColorPalettePresenter())
         self.window = window
         window.makeKeyAndVisible()
 
