@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ColorPaletteViewController: BaseViewController {
+// Future improvement: Add the option to change the current palette
+
+final class ColorPaletteViewController: BaseViewController {
     private lazy var colorView = ColorPaletteView(palette: palette)
     private lazy var palette = presenter.getCurrentPalette()
 
     private let presenter: ColorPalettePresenting
 
-    init(presenter: ColorPalettePresenting) {
+    init(presenter: ColorPalettePresenting = ColorPalettePresenter()) {
         self.presenter = presenter
         super.init(nibName: nil, bundle: nil)
 

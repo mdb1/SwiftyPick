@@ -16,6 +16,17 @@ internal enum L10n {
     internal static let title = L10n.tr("Base", "ColorPaletteScreen.title")
   }
 
+  internal enum FeaturesScreen {
+    /// Features
+    internal static let title = L10n.tr("Base", "FeaturesScreen.title")
+    internal enum Sections {
+      internal enum UserInterface {
+        /// User Interface
+        internal static let title = L10n.tr("Base", "FeaturesScreen.sections.userInterface.title")
+      }
+    }
+  }
+
   internal enum Greeting {
     /// Hello
     internal static let hello = L10n.tr("Base", "Greeting.hello")
@@ -25,11 +36,6 @@ internal enum L10n {
     }
     /// world
     internal static let world = L10n.tr("Base", "Greeting.world")
-  }
-
-  internal enum HomeScreen {
-    /// Features
-    internal static let title = L10n.tr("Base", "HomeScreen.title")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

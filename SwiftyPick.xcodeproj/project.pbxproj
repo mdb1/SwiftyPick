@@ -22,6 +22,11 @@
 		A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */; };
 		A05AA69826EAA87600A3521B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69726EAA87600A3521B /* MainViewController.swift */; };
 		A05AA69A26EAAB9B00A3521B /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69926EAAB9B00A3521B /* MainPresenter.swift */; };
+		A05AA69D26EAC22800A3521B /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69C26EAC22800A3521B /* FeaturesViewController.swift */; };
+		A05AA69F26EAC33700A3521B /* FeaturesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69E26EAC33700A3521B /* FeaturesPresenter.swift */; };
+		A05AA6A226EAC56700A3521B /* TableDataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA6A126EAC56700A3521B /* TableDataSourceProvider.swift */; };
+		A05AA6A426EAC71800A3521B /* FeaturesTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA6A326EAC71800A3521B /* FeaturesTableData.swift */; };
+		A05AA6A726EACC5700A3521B /* FeaturesScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA6A626EACC5700A3521B /* FeaturesScreenTests.swift */; };
 		A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890C926D5D7A700D1BC36 /* AppDelegate.swift */; };
 		A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ColorPaletteViewController.swift */; };
 		A06890D326D5D7A900D1BC36 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06890D226D5D7A900D1BC36 /* Image.xcassets */; };
@@ -92,6 +97,11 @@
 		A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerEmptyFile.swift; sourceTree = "<group>"; };
 		A05AA69726EAA87600A3521B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A05AA69926EAAB9B00A3521B /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		A05AA69C26EAC22800A3521B /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		A05AA69E26EAC33700A3521B /* FeaturesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPresenter.swift; sourceTree = "<group>"; };
+		A05AA6A126EAC56700A3521B /* TableDataSourceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSourceProvider.swift; sourceTree = "<group>"; };
+		A05AA6A326EAC71800A3521B /* FeaturesTableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesTableData.swift; sourceTree = "<group>"; };
+		A05AA6A626EACC5700A3521B /* FeaturesScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesScreenTests.swift; sourceTree = "<group>"; };
 		A05FB85926DA7A72009C6A7E /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestsPlan.xctestplan; sourceTree = "<group>"; };
 		A05FB85B26DA7BFA009C6A7E /* TestPlans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TestPlans.md; sourceTree = "<group>"; };
 		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
@@ -198,6 +208,7 @@
 				A03CAF5126D94765008FA41A /* Common */,
 				A03CAF4E26D92C61008FA41A /* Component */,
 				A03CAF4D26D92C59008FA41A /* Extension */,
+				A05AA6A026EAC54900A3521B /* HelperProtocol */,
 				A03CAF6E26D9AEB3008FA41A /* Screen */,
 			);
 			path = Presentation;
@@ -292,9 +303,36 @@
 		A05AA69626EAA86300A3521B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A05AA69B26EAC21800A3521B /* Features */,
 				A06890C926D5D7A700D1BC36 /* AppDelegate.swift */,
 				A05AA69926EAAB9B00A3521B /* MainPresenter.swift */,
 				A05AA69726EAA87600A3521B /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A05AA69B26EAC21800A3521B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A05AA69E26EAC33700A3521B /* FeaturesPresenter.swift */,
+				A05AA6A326EAC71800A3521B /* FeaturesTableData.swift */,
+				A05AA69C26EAC22800A3521B /* FeaturesViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A05AA6A026EAC54900A3521B /* HelperProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A05AA6A126EAC56700A3521B /* TableDataSourceProvider.swift */,
+			);
+			path = HelperProtocol;
+			sourceTree = "<group>";
+		};
+		A05AA6A526EACC4700A3521B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A05AA6A626EACC5700A3521B /* FeaturesScreenTests.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -436,6 +474,7 @@
 			children = (
 				A0A5905026E9ABF000EFCDF6 /* Base */,
 				A0A5904C26E9A4C700EFCDF6 /* ColorPalette */,
+				A05AA6A526EACC4700A3521B /* Main */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -755,10 +794,14 @@
 				A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */,
 				A03CAF5326D9477D008FA41A /* Constants.swift in Sources */,
 				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
+				A05AA69F26EAC33700A3521B /* FeaturesPresenter.swift in Sources */,
+				A05AA6A426EAC71800A3521B /* FeaturesTableData.swift in Sources */,
+				A05AA69D26EAC22800A3521B /* FeaturesViewController.swift in Sources */,
 				A05AA69A26EAAB9B00A3521B /* MainPresenter.swift in Sources */,
 				A05AA69826EAA87600A3521B /* MainViewController.swift in Sources */,
 				A03CAF5526D9478E008FA41A /* Spacing.swift in Sources */,
 				A074DEC826D7CF88008D4A17 /* Strings+Generated.swift in Sources */,
+				A05AA6A226EAC56700A3521B /* TableDataSourceProvider.swift in Sources */,
 				A03CAF5E26D958E5008FA41A /* UIColor+Hex.swift in Sources */,
 				A03CAF5C26D958CD008FA41A /* UIColor+Name.swift in Sources */,
 				A03CAF5026D92C75008FA41A /* UIColor+Palette.swift in Sources */,
@@ -776,6 +819,7 @@
 				A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */,
 				A0E0115326D9F07F00505456 /* ColorRepresentationViewTests.swift in Sources */,
 				A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */,
+				A05AA6A726EACC5700A3521B /* FeaturesScreenTests.swift in Sources */,
 				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
 				A03CAF5926D95634008FA41A /* SpacingTests.swift in Sources */,

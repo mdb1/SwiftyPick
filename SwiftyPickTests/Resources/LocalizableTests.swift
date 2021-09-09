@@ -27,15 +27,17 @@ class LocalizableTests: XCTestCase {
         }
     }
 
-    func testHomeScreenTexts() {
-        let title = L10n.HomeScreen.title
+    func testFeaturesScreenTexts() {
+        let title = L10n.FeaturesScreen.title
+        let uiSectionTitle = L10n.FeaturesScreen.Sections.UserInterface.title
 
         switch TestingRegion.current {
         case .argentina:
-            // Uses spanish translation
             XCTAssertEqual(title, "Funcionalidades")
+            XCTAssertEqual(uiSectionTitle, "Interfaz de Usuario")
         case .unitedStates:
             XCTAssertEqual(title, "Features")
+            XCTAssertEqual(uiSectionTitle, "User Interface")
         }
     }
 
@@ -44,7 +46,6 @@ class LocalizableTests: XCTestCase {
 
         switch TestingRegion.current {
         case .argentina:
-            // Uses spanish translation
             XCTAssertEqual(title, "Paletas de Colores")
         case .unitedStates:
             XCTAssertEqual(title, "Color Palettes")

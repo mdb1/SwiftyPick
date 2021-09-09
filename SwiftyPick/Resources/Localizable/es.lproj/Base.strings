@@ -10,6 +10,7 @@
 "Greeting.world" = "mundo";
 "Greeting.person" = "Hola %s";
 
-"HomeScreen.title" = "Funcionalidades";
+"FeaturesScreen.title" = "Funcionalidades";
+"FeaturesScreen.sections.userInterface.title" = "Interfaz de Usuario";
 
 "ColorPaletteScreen.title" = "Paletas de Colores";

@@ -30,13 +30,14 @@ final class MainViewController: UITabBarController {
     }
 
     private func buildFirstTabVC() -> UIViewController {
-        // Future improvement: Use FeaturesViewController instead
-        let vc = ColorPaletteViewController(presenter: ColorPalettePresenter())
+        let vc = FeaturesViewController()
         vc.tabBarItem = UITabBarItem(
-            title: L10n.HomeScreen.title,
+            title: L10n.FeaturesScreen.title,
             image: UIImage(systemName: "list.star"),
             tag: 0
         )
         return UINavigationController(rootViewController: vc)
     }
+
+    // Future improvement: Build SettingsVC to control things like: AppIcon, ColorPalette, FeatureFlags, etc.
 }
