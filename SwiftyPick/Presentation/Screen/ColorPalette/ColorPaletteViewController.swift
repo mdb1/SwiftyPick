@@ -9,7 +9,7 @@ import UIKit
 
 class ColorPaletteViewController: BaseViewController {
     private lazy var colorView = ColorPaletteView(palette: palette)
-    private lazy var palette = presenter.getPaletteView()
+    private lazy var palette = presenter.getCurrentPalette()
 
     private let presenter: ColorPalettePresenting
 
@@ -27,6 +27,16 @@ class ColorPaletteViewController: BaseViewController {
 
     override func loadView() {
         self.view = colorView
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        setUpNavigation()
+    }
+
+    private func setUpNavigation() {
+        title = L10n.ColorPaletteScreen.title
     }
 }
 

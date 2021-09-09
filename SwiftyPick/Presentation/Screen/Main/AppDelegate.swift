@@ -15,13 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        if ProcessInfo.processInfo.environment[Constants.testPath] != nil {
-            // If we are on a test environment, no additional actions are needed.
-            return true
-        }
-
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = ColorPaletteViewController(presenter: ColorPalettePresenter())
+        window.rootViewController = MainViewController()
         self.window = window
         window.makeKeyAndVisible()
 

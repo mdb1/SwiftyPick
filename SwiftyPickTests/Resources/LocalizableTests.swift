@@ -27,6 +27,30 @@ class LocalizableTests: XCTestCase {
         }
     }
 
+    func testHomeScreenTexts() {
+        let title = L10n.HomeScreen.title
+
+        switch TestingRegion.current {
+        case .argentina:
+            // Uses spanish translation
+            XCTAssertEqual(title, "Funcionalidades")
+        case .unitedStates:
+            XCTAssertEqual(title, "Features")
+        }
+    }
+
+    func testColorPaletteScreenTexts() {
+        let title = L10n.ColorPaletteScreen.title
+
+        switch TestingRegion.current {
+        case .argentina:
+            // Uses spanish translation
+            XCTAssertEqual(title, "Paletas de Colores")
+        case .unitedStates:
+            XCTAssertEqual(title, "Color Palettes")
+        }
+    }
+
     // Future improvement: Write a script that:
     // 1. Fetches the strings from the localizable files
     // 2. Asserts that all the localization strings matches their region

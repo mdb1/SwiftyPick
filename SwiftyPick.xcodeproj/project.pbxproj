@@ -20,6 +20,8 @@
 		A044B10226D67D470051EDEA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10126D67D470051EDEA /* README.md */; };
 		A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10426D6868C0051EDEA /* SwiftLint.md */; };
 		A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */; };
+		A05AA69826EAA87600A3521B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69726EAA87600A3521B /* MainViewController.swift */; };
+		A05AA69A26EAAB9B00A3521B /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69926EAAB9B00A3521B /* MainPresenter.swift */; };
 		A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890C926D5D7A700D1BC36 /* AppDelegate.swift */; };
 		A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06890CD26D5D7A700D1BC36 /* ColorPaletteViewController.swift */; };
 		A06890D326D5D7A900D1BC36 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06890D226D5D7A900D1BC36 /* Image.xcassets */; };
@@ -88,6 +90,8 @@
 		A044B10126D67D470051EDEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A044B10426D6868C0051EDEA /* SwiftLint.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SwiftLint.md; sourceTree = "<group>"; };
 		A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerEmptyFile.swift; sourceTree = "<group>"; };
+		A05AA69726EAA87600A3521B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A05AA69926EAAB9B00A3521B /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		A05FB85926DA7A72009C6A7E /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestsPlan.xctestplan; sourceTree = "<group>"; };
 		A05FB85B26DA7BFA009C6A7E /* TestPlans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TestPlans.md; sourceTree = "<group>"; };
 		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
@@ -195,7 +199,6 @@
 				A03CAF4E26D92C61008FA41A /* Component */,
 				A03CAF4D26D92C59008FA41A /* Extension */,
 				A03CAF6E26D9AEB3008FA41A /* Screen */,
-				A06890C926D5D7A700D1BC36 /* AppDelegate.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -241,10 +244,10 @@
 		A03CAF5626D9561B008FA41A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				A0A5904926E9A48300EFCDF6 /* Screen */,
 				A03CAF5726D95624008FA41A /* Common */,
 				A0E0115426D9F35800505456 /* Component */,
 				A0ED2FAA26DEDCEE008AB6C6 /* Extension */,
+				A0A5904926E9A48300EFCDF6 /* Screen */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			children = (
 				A0A5903D26E973B400EFCDF6 /* Base */,
 				A0A5904226E9798800EFCDF6 /* ColorPalette */,
+				A05AA69626EAA86300A3521B /* Main */,
 				A06890D426D5D7A900D1BC36 /* LaunchScreen.storyboard */,
 			);
 			path = Screen;
@@ -283,6 +287,16 @@
 				A05FB85B26DA7BFA009C6A7E /* TestPlans.md */,
 			);
 			path = Documentation;
+			sourceTree = "<group>";
+		};
+		A05AA69626EAA86300A3521B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A06890C926D5D7A700D1BC36 /* AppDelegate.swift */,
+				A05AA69926EAAB9B00A3521B /* MainPresenter.swift */,
+				A05AA69726EAA87600A3521B /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		A06890BD26D5D7A700D1BC36 = {
@@ -400,9 +414,9 @@
 		A0A5903D26E973B400EFCDF6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */,
 				A0A5904526E97C8B00EFCDF6 /* BaseView.swift */,
 				A0A5904026E9755300EFCDF6 /* BaseViewController.swift */,
-				A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -731,6 +745,7 @@
 			files = (
 				A06890CA26D5D7A700D1BC36 /* AppDelegate.swift in Sources */,
 				A074DEC926D7CF88008D4A17 /* Assets+Generated.swift in Sources */,
+				A0A5903F26E973C300EFCDF6 /* BasePresenter.swift in Sources */,
 				A0A5904626E97C8B00EFCDF6 /* BaseView.swift in Sources */,
 				A0A5904126E9755300EFCDF6 /* BaseViewController.swift in Sources */,
 				A0A5904426E9799B00EFCDF6 /* ColorPalettePresenter.swift in Sources */,
@@ -740,7 +755,8 @@
 				A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */,
 				A03CAF5326D9477D008FA41A /* Constants.swift in Sources */,
 				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
-				A0A5903F26E973C300EFCDF6 /* BasePresenter.swift in Sources */,
+				A05AA69A26EAAB9B00A3521B /* MainPresenter.swift in Sources */,
+				A05AA69826EAA87600A3521B /* MainViewController.swift in Sources */,
 				A03CAF5526D9478E008FA41A /* Spacing.swift in Sources */,
 				A074DEC826D7CF88008D4A17 /* Strings+Generated.swift in Sources */,
 				A03CAF5E26D958E5008FA41A /* UIColor+Hex.swift in Sources */,
@@ -755,9 +771,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A5905226E9ABFB00EFCDF6 /* BaseViewTests.swift in Sources */,
+				A0A5904B26E9A4A300EFCDF6 /* ColorPaletteScreenTests.swift in Sources */,
 				A0E0115726D9F39100505456 /* ColorPalettesViewTests.swift in Sources */,
 				A0E0115326D9F07F00505456 /* ColorRepresentationViewTests.swift in Sources */,
-				A0A5905226E9ABFB00EFCDF6 /* BaseViewTests.swift in Sources */,
 				A074DECE26D7D713008D4A17 /* ColorTests.swift in Sources */,
 				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
@@ -765,7 +782,6 @@
 				A0ED2FAC26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift in Sources */,
 				A0ED2FAE26DEDFC8008AB6C6 /* UIView+PinTests.swift in Sources */,
 				A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */,
-				A0A5904B26E9A4A300EFCDF6 /* ColorPaletteScreenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,14 +18,14 @@ protocol ColorPalettePresenting: AnyObject {
     var delegate: ColorPalettePresenterDelegate? { get set }
 
     /// Returns the current palette stored in user defaults
-    func getPaletteView() -> UIColor.Palette
+    func getCurrentPalette() -> UIColor.Palette
 }
 
 /// The Presenter for the Color Palette Screen.
 final class ColorPalettePresenter: BasePresenter, ColorPalettePresenting {
     weak var delegate: ColorPalettePresenterDelegate?
 
-    func getPaletteView() -> UIColor.Palette {
+    func getCurrentPalette() -> UIColor.Palette {
         // Future Improvement: Grab the palette from user defaults
         return .flashy
     }

@@ -29,7 +29,7 @@
   "testTargets" : [
     {
       "selectedTests" : [
-        "LocalizableTests\/testGreetingTranslation()"
+        "LocalizableTests"
       ],
       "target" : {
         "containerPath" : "container:SwiftyPick.xcodeproj",

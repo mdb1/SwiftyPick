@@ -9,3 +9,7 @@
 "Greeting.hello" = "Hello";
 "Greeting.world" = "world";
 "Greeting.person" = "Hello %s";
+
+"HomeScreen.title" = "Features";
+
+"ColorPaletteScreen.title" = "Color Palettes";

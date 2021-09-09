@@ -39,6 +39,6 @@ class ColorPaletteScreenTests: XCTestCase {
     }
 
     func testGetPalette() {
-        XCTAssertEqual(presenter.getPaletteView().allColors, UIColor.Palette.flashy.allColors)
+        XCTAssertEqual(presenter.getCurrentPalette().allColors, UIColor.Palette.flashy.allColors)
     }
 }
