@@ -1,6 +1,628 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorPalettesView.swift",
+      "line": 12,
+      "symbol": "ColorPalettesView.stackView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorPalettesView.swift",
+      "line": 13,
+      "symbol": "ColorPalettesView.palette",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorPalettesView.swift",
+      "line": 15,
+      "symbol": "ColorPalettesView.init(palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorRepresentationView.swift",
+      "line": 12,
+      "symbol": "ColorRepresentationView.nameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorRepresentationView.swift",
+      "line": 13,
+      "symbol": "ColorRepresentationView.hexaLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorRepresentationView.swift",
+      "line": 14,
+      "symbol": "ColorRepresentationView.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorRepresentationView.swift",
+      "line": 15,
+      "symbol": "ColorRepresentationView.palette",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Component/ColorPalettes/ColorRepresentationView.swift",
+      "line": 17,
+      "symbol": "ColorRepresentationView.init(color:palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 13,
+      "symbol": "UIColor.Palette.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 15,
+      "symbol": "UIColor.Palette.flashy",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 20,
+      "symbol": "ColorNames.backgroundAlt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 20,
+      "symbol": "ColorNames.backgroundMain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 20,
+      "symbol": "ColorNames.backgroundMid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 21,
+      "symbol": "ColorNames.textAlt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 21,
+      "symbol": "ColorNames.textPrimary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 22,
+      "symbol": "ColorNames.primary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 22,
+      "symbol": "ColorNames.secondary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 22,
+      "symbol": "ColorNames.tertiary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 28,
+      "symbol": "UIColor.Palette.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 30,
+      "symbol": "UIColor.Palette.backgroundMain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 31,
+      "symbol": "UIColor.Palette.backgroundMid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 32,
+      "symbol": "UIColor.Palette.backgroundAlt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 34,
+      "symbol": "UIColor.Palette.textPrimary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 35,
+      "symbol": "UIColor.Palette.textAlt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 37,
+      "symbol": "UIColor.Palette.primary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 38,
+      "symbol": "UIColor.Palette.secondary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 39,
+      "symbol": "UIColor.Palette.tertiary",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Extension/UIColor+Palette.swift",
+      "line": 42,
+      "symbol": "UIColor.Palette.allColors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BasePresenter.swift",
+      "line": 21,
+      "symbol": "BasePresenter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BasePresenter.swift",
+      "line": 25,
+      "symbol": "BasePresenter.setUp()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BasePresenter.swift",
+      "line": 29,
+      "symbol": "BasePresenter.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BaseView.swift",
+      "line": 12,
+      "symbol": "BaseView.loadingContainerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BaseView.swift",
+      "line": 13,
+      "symbol": "BaseView.activityIndicator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BaseView.swift",
+      "line": 15,
+      "symbol": "BaseView.isLoading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Base/BaseViewController.swift",
+      "line": 19,
+      "symbol": "UIViewController.displayError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 13,
+      "symbol": "ColorPaletteView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 14,
+      "symbol": "ColorPaletteView.scrollView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 15,
+      "symbol": "ColorPaletteView.contentView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 17,
+      "symbol": "ColorPaletteView.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 19,
+      "symbol": "ColorPaletteView.init(palette:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteView.swift",
+      "line": 26,
+      "symbol": "ColorPaletteView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 12,
+      "symbol": "ColorPaletteViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 18,
+      "symbol": "ColorPaletteViewController.init(presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 26,
+      "symbol": "ColorPaletteViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 30,
+      "symbol": "ColorPaletteViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 34,
+      "symbol": "ColorPaletteViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 45,
+      "symbol": "ColorPaletteViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/ColorPalette/ColorPaletteViewController.swift",
+      "line": 47,
+      "symbol": "ColorPaletteViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesPresenter.swift",
+      "line": 30,
+      "symbol": "FeaturesPresenter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesTableData.swift",
+      "line": 12,
+      "symbol": "FeaturesSection.userInterface(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesTableData.swift",
+      "line": 14,
+      "symbol": "FeaturesSection.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesTableData.swift",
+      "line": 24,
+      "symbol": "UserInterfaceRows.colorPalette",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesTableData.swift",
+      "line": 26,
+      "symbol": "UserInterfaceRows.cellTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 10,
+      "symbol": "FeaturesViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 13,
+      "symbol": "FeaturesViewController.init(presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 20,
+      "symbol": "FeaturesViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 24,
+      "symbol": "FeaturesViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 30,
+      "symbol": "FeaturesViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 43,
+      "symbol": "FeaturesViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 52,
+      "symbol": "FeaturesViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 56,
+      "symbol": "FeaturesViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 60,
+      "symbol": "FeaturesViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 74,
+      "symbol": "FeaturesViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 84,
+      "symbol": "FeaturesViewController.tableView(_:heightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 88,
+      "symbol": "FeaturesViewController.tableView(_:viewForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/Features/FeaturesViewController.swift",
+      "line": 100,
+      "symbol": "FeaturesViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/MainPresenter.swift",
+      "line": 16,
+      "symbol": "MainPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/MainViewController.swift",
+      "line": 10,
+      "symbol": "MainViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/MainViewController.swift",
+      "line": 13,
+      "symbol": "MainViewController.init(presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/MainViewController.swift",
+      "line": 19,
+      "symbol": "MainViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 14,
+      "symbol": "AssetImageTypeAlias",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 21,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 22,
+      "symbol": "Asset.swiftLogo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 25,
+      "symbol": "Asset.allImages",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 34,
+      "symbol": "ImageAsset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 35,
+      "symbol": "ImageAsset.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 40,
+      "symbol": "ImageAsset.Image",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 43,
+      "symbol": "ImageAsset.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 60,
+      "symbol": "ImageAsset.Image",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 63,
+      "symbol": "ImageAsset.Image.init(asset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 12,
+      "symbol": "L10n",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 14,
+      "symbol": "L10n.ColorPaletteScreen",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 19,
+      "symbol": "L10n.FeaturesScreen",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 22,
+      "symbol": "L10n.FeaturesScreen.Sections",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 23,
+      "symbol": "L10n.FeaturesScreen.Sections.UserInterface",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "line": 30,
+      "symbol": "L10n.Greeting",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/manuherrera/projects/Personales/SwiftyPick"
 }

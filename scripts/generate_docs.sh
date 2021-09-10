@@ -4,7 +4,10 @@
 pod deintegrate
 
 # Run jazzy
-jazzy -c --output Documentation/jazzy
+jazzy -c \
+    --output Documentation/jazzy \
+    --build-tool-arguments -scheme,SwiftyPick \
+    --min-acl internal
 
 # Run pod install
 pod install
