@@ -27,24 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <PostActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Sort Project Files"
-               scriptText = "/usr/bin/perl &quot;${PROJECT_DIR}/scripts/sort.pl&quot; &quot;${PROJECT_DIR}/SwiftyPick.xcodeproj/&quot;&#10;">
-               <EnvironmentBuildable>
-                  <BuildableReference
-                     BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "A06890C526D5D7A700D1BC36"
-                     BuildableName = "SwiftyPick.app"
-                     BlueprintName = "SwiftyPick"
-                     ReferencedContainer = "container:SwiftyPick.xcodeproj">
-                  </BuildableReference>
-               </EnvironmentBuildable>
-            </ActionContent>
-         </ExecutionAction>
-      </PostActions>
       <TestPlans>
          <TestPlanReference
             reference = "container:SwiftyPickTests/RegionalTestsPlan.xctestplan">

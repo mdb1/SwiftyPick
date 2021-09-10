@@ -9,3 +9,8 @@
 "Greeting.hello" = "Hola";
 "Greeting.world" = "mundo";
 "Greeting.person" = "Hola %s";
+
+"FeaturesScreen.title" = "Funcionalidades";
+"FeaturesScreen.sections.userInterface.title" = "Interfaz de Usuario";
+
+"ColorPaletteScreen.title" = "Paletas de Colores";

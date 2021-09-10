@@ -11,6 +11,22 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
 
+  internal enum ColorPaletteScreen {
+    /// Color Palettes
+    internal static let title = L10n.tr("Base", "ColorPaletteScreen.title")
+  }
+
+  internal enum FeaturesScreen {
+    /// Features
+    internal static let title = L10n.tr("Base", "FeaturesScreen.title")
+    internal enum Sections {
+      internal enum UserInterface {
+        /// User Interface
+        internal static let title = L10n.tr("Base", "FeaturesScreen.sections.userInterface.title")
+      }
+    }
+  }
+
   internal enum Greeting {
     /// Hello
     internal static let hello = L10n.tr("Base", "Greeting.hello")
