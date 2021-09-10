@@ -102,6 +102,7 @@
 		A05AA6A126EAC56700A3521B /* TableDataSourceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSourceProvider.swift; sourceTree = "<group>"; };
 		A05AA6A326EAC71800A3521B /* FeaturesTableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesTableData.swift; sourceTree = "<group>"; };
 		A05AA6A626EACC5700A3521B /* FeaturesScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesScreenTests.swift; sourceTree = "<group>"; };
+		A05AA6A826EAF01300A3521B /* MVP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MVP.md; sourceTree = "<group>"; };
 		A05FB85926DA7A72009C6A7E /* UnitTestsPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestsPlan.xctestplan; sourceTree = "<group>"; };
 		A05FB85B26DA7BFA009C6A7E /* TestPlans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TestPlans.md; sourceTree = "<group>"; };
 		A064F88B26D8188A009335E9 /* Fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Fastlane.md; sourceTree = "<group>"; };
@@ -292,6 +293,7 @@
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
 				A0CDC5E126E3D1A200347AC5 /* Jazzy.md */,
+				A05AA6A826EAF01300A3521B /* MVP.md */,
 				A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */,
 				A0D951F326D7DFCE00C7F61B /* SwiftGen.md */,
 				A044B10426D6868C0051EDEA /* SwiftLint.md */,

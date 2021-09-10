@@ -44,6 +44,9 @@ Open `SwiftyPick.xcworkspace` with Xcode
 ### UI
 * `// TODO //`
 
+### UI Design Patterns
+* [MVP](Documentation/MVP.md): Use the MVP design pattern in your project.
+
 ## Process
 
 ### Danger
@@ -72,21 +75,24 @@ Open `SwiftyPick.xcworkspace` with Xcode
 # TODOs
 This is the list of things I want to add to the project in the near future:
 
+- [ ] UITableViewCell/UICollectionViewCell extension for `register`, `dequeue`, and `cellReuseIdentifier`
+- [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
+- [ ] Lightweight `URLSession` networking layer
+- [ ] PokedexViewController
+    - Use MVP: PokedexPresenter, PokedexPresenting, PokedexPresentingDelegate
+    - Use the new networking layer for the backend call
+    - Unit test the presenter using a mock presenter to avoid the network call
 - [ ] NumberFormatter + Regional unit tests (ie: check the `,` or `.` separator for decimals/thousands depending on the region)
 - [ ] CurrencyFormatter + Regional unit tests
 - [ ] DateFormatter + Regional unit tests
-- [ ] Lightweight `URLSession` networking layer
 - [ ] Dynamic Fonts (For accessibility)
 - [ ] UITests layer using Page Object pattern
 - [ ] Schemes (prod/dev)
-- [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] UIView extension with some basic animations
-- [ ] UITableViewCell/UICollectionViewCell extension for `register`, `dequeue`, and `cellReuseIdentifier`
 - [ ] Firebase integration (Analytics/Crashlytics/AB Testing/Flags)
 - [ ] Custom Operators from the `Advanced Swift` book
 - [ ] GraphQL support
-- [ ] A tableview in the home, where each cell will be the entry point to each feature (ie: color palettes, networking call via http, networking via graphQL, UI components, animations, formatters, etc)
 - [ ] Settings view: dark mode, color palette, app icon, local feature flags, display backend calls for debug, change accessibility features, etc
 
 # Contributing
