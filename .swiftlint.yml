@@ -100,3 +100,7 @@ line_length:
 
 trailing_whitespace:
   ignores_empty_lines: true
+
+missing_docs:
+  error: [open, public]
+  warning: internal

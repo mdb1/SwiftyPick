@@ -13,7 +13,10 @@ protocol MainPresenting: AnyObject {
     func getCurrentPalette() -> UIColor.Palette
 }
 
+/// MainPresenter: presenter to be used by the MainViewController
 final class MainPresenter: BasePresenter, MainPresenting {
+    /// Method to get the current palette of the app
+    /// - Returns: the palette stored in user defaults as the current one selected
     func getCurrentPalette() -> UIColor.Palette {
         // Future Improvement: Grab the palette from user defaults
         return .flashy

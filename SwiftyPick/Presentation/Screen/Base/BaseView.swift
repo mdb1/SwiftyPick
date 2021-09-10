@@ -9,9 +9,12 @@ import UIKit
 
 /// BaseView to use as parent for the main view inside a view controller.
 class BaseView: UIView {
+    /// The container view for the loading state
     private(set) var loadingContainerView = UIView()
+    /// The loading indicator
     private(set) var activityIndicator: UIActivityIndicatorView! = UIActivityIndicatorView()
 
+    /// Property to tell the view to start or stop loading
     var isLoading: Bool {
         get { !activityIndicator.isHidden }
         set {

@@ -16,6 +16,8 @@ extension BaseViewController: Presentable {}
 extension BaseTableViewController: Presentable {}
 
 extension UIViewController {
+    /// Displays a full screen error in the VC's view
+    /// - Parameter error: The error to be displayed
     func displayError(_ error: Error) {
         // Future improvement: Design and display the error view, also add unit tests
         print("Display error view")
