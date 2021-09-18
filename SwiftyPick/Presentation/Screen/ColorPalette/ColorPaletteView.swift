@@ -10,12 +10,18 @@ import UIKit
 /// ColorPaletteViewDelegate used by the view to communicate with the VC.
 protocol ColorPaletteViewDelegate: AnyObject {}
 
+/// The view that displays all the colors for a custom palette
 final class ColorPaletteView: BaseView {
+    /// ScrollView for the view.
     private(set) var scrollView: UIScrollView!
+    /// ContentView.
     private(set) var contentView: UIView!
     private var palette: UIColor.Palette!
+    /// Delegate to communicate back to the VC.
     weak var delegate: ColorPaletteViewDelegate?
 
+    /// Custom Init.
+    /// - Parameter palette: the palette to be used in this view
     init(palette: UIColor.Palette) {
         self.palette = palette
         super.init(frame: .zero)
@@ -23,6 +29,7 @@ final class ColorPaletteView: BaseView {
         setUpUI()
     }
 
+    /// Required init by the compiler.
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

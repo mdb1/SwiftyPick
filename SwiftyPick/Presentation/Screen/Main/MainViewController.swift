@@ -7,15 +7,19 @@
 
 import UIKit
 
+/// The MainVC of the app, as a child of UITabBarController.
 final class MainViewController: UITabBarController {
     private let presenter: MainPresenting
 
+    /// Custom init.
+    /// - Parameter presenter: the presenter to be used by the VC
     init(presenter: MainPresenting = MainPresenter()) {
         self.presenter = presenter
         super.init(nibName: nil, bundle: nil)
         setUp()
     }
 
+    /// Required init by the compiler.
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Palette Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+    <script src="../../js/lunr.min.js" defer></script>
+    <script src="../../js/typeahead.jquery.js" defer></script>
+    <script src="../../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Palette" class="dashAnchor"></a>
+    <a title="Palette Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (89% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Palette Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/BasePresenter.html">BasePresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes.html#/c:@M@SwiftyPick@objc(cs)BaseTableViewController">BaseTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/BaseView.html">BaseView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes.html#/c:@M@SwiftyPick@objc(cs)BaseViewController">BaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ColorPalettePresenter.html">ColorPalettePresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ColorPaletteView.html">ColorPaletteView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ColorPaletteViewController.html">ColorPaletteViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ColorPalettesView.html">ColorPalettesView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/ColorRepresentationView.html">ColorRepresentationView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/FeaturesPresenter.html">FeaturesPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/FeaturesViewController.html">FeaturesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/MainPresenter.html">MainPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/MainViewController.html">MainViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Enums/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/ColorNames.html">ColorNames</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Constants.html">Constants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/FeaturesSection.html">FeaturesSection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/L10n.html">L10n</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/L10n/ColorPaletteScreen.html">– ColorPaletteScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/L10n/FeaturesScreen.html">– FeaturesScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/L10n/Greeting.html">– Greeting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/Spacing.html">Spacing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Enums/UserInterfaceRows.html">UserInterfaceRows</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/UIColor/Palette.html">– Palette</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:10SwiftyPick29ColorPalettePresenterDelegateP">ColorPalettePresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/ColorPalettePresenting.html">ColorPalettePresenting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:10SwiftyPick24ColorPaletteViewDelegateP">ColorPaletteViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols.html#/s:10SwiftyPick25FeaturesPresenterDelegateP">FeaturesPresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/FeaturesPresenting.html">FeaturesPresenting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/MainPresenting.html">MainPresenting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/Presentable.html">Presentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Protocols/TableDataSourceProvider.html">TableDataSourceProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Structs/ImageAsset.html">ImageAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Structs/ImageAsset/Image.html">– Image</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Typealiases.html#/s:10SwiftyPick19AssetImageTypeAliasa">AssetImageTypeAlias</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Palette</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Palette</span></code></pre>
+
+                </div>
+              </div>
+            <p>All the Palettes have the same semantics for their colors</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV4nameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV4nameSSvp">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Name of the Palette</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV14backgroundMainABvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundMain" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV14backgroundMainABvp">backgroundMain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for main backgrounds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">backgroundMain</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV13backgroundMidABvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundMid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV13backgroundMidABvp">backgroundMid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for secondary backgrounds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">backgroundMid</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV13backgroundAltABvp"></a>
+                    <a name="//apple_ref/swift/Property/backgroundAlt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV13backgroundAltABvp">backgroundAlt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for alternative backgrounds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">backgroundAlt</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV11textPrimaryABvp"></a>
+                    <a name="//apple_ref/swift/Property/textPrimary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV11textPrimaryABvp">textPrimary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for primary texts</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">textPrimary</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV7textAltABvp"></a>
+                    <a name="//apple_ref/swift/Property/textAlt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV7textAltABvp">textAlt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used for alternative texts</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">textAlt</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV7primaryABvp"></a>
+                    <a name="//apple_ref/swift/Property/primary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV7primaryABvp">primary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used as primary in the app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">primary</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV9secondaryABvp"></a>
+                    <a name="//apple_ref/swift/Property/secondary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV9secondaryABvp">secondary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used as secondary in the app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">secondary</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV8tertiaryABvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV8tertiaryABvp">tertiary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color used as tertiary in the app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">tertiary</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV9allColorsSayABGvp"></a>
+                    <a name="//apple_ref/swift/Property/allColors" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV9allColorsSayABGvp">allColors</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Collection of all the colors used in the app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">allColors</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIColor</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV7defaultAEvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/default" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV7defaultAEvpZ">default</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default Palette/Theme for the app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">let</span> <span class="err">`</span><span class="k">default</span><span class="err">`</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">.</span><span class="kt">Palette</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV6flashyAEvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/flashy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV6flashyAEvpZ">flashy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alternative Theme, using non-standard colors for backgrounds/texts</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">flashy</span><span class="p">:</span> <span class="kt">UIColor</span><span class="o">.</span><span class="kt">Palette</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIColorC10SwiftyPickE7PaletteV17assetCatalogColor5namedAbC0G5NamesO_tF"></a>
+                    <a name="//apple_ref/swift/Method/assetCatalogColor(named:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIColorC10SwiftyPickE7PaletteV17assetCatalogColor5namedAbC0G5NamesO_tF">assetCatalogColor(named:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get the UIColor object from a string</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">assetCatalogColor</span><span class="p">(</span><span class="n">named</span> <span class="nv">semanticColor</span><span class="p">:</span> <span class="kt"><a href="../../Enums/ColorNames.html">ColorNames</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>semanticColor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>color name (Should be one defined in the XCAssets)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The color object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="noopener" rel="external"></a>. All rights reserved. (Last updated: 2021-09-10)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="noopener" rel="external">jazzy ♪♫ v0.14.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="noopener" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -18,13 +18,16 @@ protocol Presentable: AnyObject {
 
 /// Base Presenter class to share functionality with it's children.
 class BasePresenter {
+    /// Initializer method of the BasePresenter
     init() {
         setUp()
     }
 
+    /// setUp method to be called on the init
     func setUp() {
         print("\(self.self) set up")
     }
 
+    /// de-init method that gets called when the instance will be released
     deinit { print("\(self.self) de-init") }
 }

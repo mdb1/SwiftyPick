@@ -7,6 +7,7 @@
 
 import XCTest
 
+/// ISO codes for countries
 enum CountryISOCode {
     /// iso2 code for Argentina
     static let argentina = "AR"
@@ -20,6 +21,7 @@ extension XCTestCase {
         case argentina
         case unitedStates // default
 
+        /// The current region set in the phone
         static var current: TestingRegion {
             switch Locale.current.regionCode {
             case CountryISOCode.argentina:

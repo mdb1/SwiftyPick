@@ -9,11 +9,19 @@ import UIKit
 
 /// This view is a representation of one color in the palette.
 final class ColorRepresentationView: UIView {
+    /// Label that displays the name of the color.
     private(set) var nameLabel: UILabel!
+    /// Label that displays the hexadecimal representation of the color.
     private(set) var hexaLabel: UILabel!
+    /// UIColor for the view.
     private(set) var color: UIColor!
+    /// Palette from where the app will grab the color.
     private(set) var palette: UIColor.Palette!
 
+    /// Custom initializer for the view.
+    /// - Parameters:
+    ///   - color: the color to display
+    ///   - palette: from where the app will grab the color
     convenience init(color: UIColor, palette: UIColor.Palette) {
         self.init(frame: .zero)
 

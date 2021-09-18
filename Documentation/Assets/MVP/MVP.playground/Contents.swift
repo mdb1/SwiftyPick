@@ -165,6 +165,11 @@ final class YourScreenTests: XCTestCase {
 }
 
 // MARK: - Configuration for running tests on Playground
+/// Compares if two errors are equal
+/// - Parameters:
+///   - lhs: left hand side error
+///   - rhs: right hand side error
+/// - Returns: Whether lhs and rhs are equal
 func == (lhs: Error, rhs: Error) -> Bool {
     guard type(of: lhs) == type(of: rhs) else { return false }
     let error1 = lhs as NSError
