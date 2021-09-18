@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		479A1488E1C23F02B7E38E58 /* Pods_SwiftyPick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C2FB4FD014841AAECA483F /* Pods_SwiftyPick.framework */; };
 		547BE02D1D34FB2CF607F093 /* Pods_SwiftyPickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87360D4E839E99D0CA7E2DB5 /* Pods_SwiftyPickTests.framework */; };
+		A032E5A226F64331000398E4 /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032E59F26F64251000398E4 /* UITableViewTests.swift */; };
+		A032E5A426F64346000398E4 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032E5A326F64346000398E4 /* UITableViewCell+ReuseIdentifier.swift */; };
+		A032E5A626F64543000398E4 /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032E5A526F64543000398E4 /* UITableView+Register.swift */; };
+		A032E5A826F646CA000398E4 /* UITableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032E5A726F646CA000398E4 /* UITableView+Dequeue.swift */; };
 		A03CAF4A26D9267E008FA41A /* ColorPalettesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CAF4926D9267E008FA41A /* ColorPalettesView.swift */; };
 		A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CAF4B26D927A6008FA41A /* ColorRepresentationView.swift */; };
 		A03CAF5026D92C75008FA41A /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03CAF4F26D92C75008FA41A /* UIColor+Palette.swift */; };
@@ -81,6 +85,10 @@
 		6D3C8D69E4B6C773241C4940 /* Pods-SwiftyPick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPick.release.xcconfig"; path = "Target Support Files/Pods-SwiftyPick/Pods-SwiftyPick.release.xcconfig"; sourceTree = "<group>"; };
 		87360D4E839E99D0CA7E2DB5 /* Pods_SwiftyPickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyPickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		886633F7DCB59476FE5EC5DA /* Pods-SwiftyPickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyPickUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyPickUITests/Pods-SwiftyPickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A032E59F26F64251000398E4 /* UITableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewTests.swift; sourceTree = "<group>"; };
+		A032E5A326F64346000398E4 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		A032E5A526F64543000398E4 /* UITableView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		A032E5A726F646CA000398E4 /* UITableView+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeue.swift"; sourceTree = "<group>"; };
 		A03CAF4926D9267E008FA41A /* ColorPalettesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettesView.swift; sourceTree = "<group>"; };
 		A03CAF4B26D927A6008FA41A /* ColorRepresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRepresentationView.swift; sourceTree = "<group>"; };
 		A03CAF4F26D92C75008FA41A /* UIColor+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
@@ -230,6 +238,9 @@
 				A03CAF5D26D958E5008FA41A /* UIColor+Hex.swift */,
 				A03CAF5B26D958CD008FA41A /* UIColor+Name.swift */,
 				A03CAF4F26D92C75008FA41A /* UIColor+Palette.swift */,
+				A032E5A726F646CA000398E4 /* UITableView+Dequeue.swift */,
+				A032E5A526F64543000398E4 /* UITableView+Register.swift */,
+				A032E5A326F64346000398E4 /* UITableViewCell+ReuseIdentifier.swift */,
 				A0ED2FA626DEB8B5008AB6C6 /* UIView+AddSubview.swift */,
 				A0ED2FA826DEC279008AB6C6 /* UIView+Pin.swift */,
 			);
@@ -517,6 +528,7 @@
 		A0ED2FAA26DEDCEE008AB6C6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A032E59F26F64251000398E4 /* UITableViewTests.swift */,
 				A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */,
 				A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */,
 			);
@@ -807,6 +819,9 @@
 				A03CAF5E26D958E5008FA41A /* UIColor+Hex.swift in Sources */,
 				A03CAF5C26D958CD008FA41A /* UIColor+Name.swift in Sources */,
 				A03CAF5026D92C75008FA41A /* UIColor+Palette.swift in Sources */,
+				A032E5A826F646CA000398E4 /* UITableView+Dequeue.swift in Sources */,
+				A032E5A626F64543000398E4 /* UITableView+Register.swift in Sources */,
+				A032E5A426F64346000398E4 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
 				A0ED2FA726DEB8B5008AB6C6 /* UIView+AddSubview.swift in Sources */,
 				A0ED2FA926DEC279008AB6C6 /* UIView+Pin.swift in Sources */,
 			);
@@ -825,6 +840,7 @@
 				A074DECC26D7D495008D4A17 /* ImageTests.swift in Sources */,
 				A074DED426D7DA3D008D4A17 /* LocalizableTests.swift in Sources */,
 				A03CAF5926D95634008FA41A /* SpacingTests.swift in Sources */,
+				A032E5A226F64331000398E4 /* UITableViewTests.swift in Sources */,
 				A0ED2FAC26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift in Sources */,
 				A0ED2FAE26DEDFC8008AB6C6 /* UIView+PinTests.swift in Sources */,
 				A074DED726D7DBA0008D4A17 /* XCTestCase+Region.swift in Sources */,

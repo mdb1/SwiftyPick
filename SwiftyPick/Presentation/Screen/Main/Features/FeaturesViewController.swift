@@ -50,8 +50,7 @@ extension FeaturesViewController {
     private func setUpTableView() {
         tableView.delegate = self
         tableView.dataSource = self
-        // Future improvement: Move this to a helper method in an UITableView extension
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(UITableViewCell.self)
         tableView.tableFooterView = UIView()
     }
 
@@ -67,10 +66,7 @@ extension FeaturesViewController {
 
     /// Asks the data source for a cell to insert in a particular location of the table view.
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // Future improvement: Move this to a helper method in an UITableView extension
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {
-            return UITableViewCell()
-        }
+        let cell = tableView.dequeueReusableCell(UITableViewCell.self, for: indexPath)
 
         switch presenter.sections[indexPath.section] {
         case .userInterface(let rows):
