@@ -3,9 +3,11 @@
 # Deintegrate the pods
 pod deintegrate
 
+gem install jazzy
+
 # Run jazzy
 jazzy -c \
-    --output Documentation/jazzy \
+    --output ./docs \
     --build-tool-arguments -scheme,SwiftyPick \
     --min-acl internal
 

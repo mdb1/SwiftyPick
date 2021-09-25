@@ -2,7 +2,7 @@
 
 Useful Swift code samples, extensions, functionalities and scripts to cherry-pick and use in your projects.
 
-**`internal level documentation:`** ![Documentation](Documentation/jazzy/badge.svg)
+**`internal level documentation:`** ![Documentation](https://mdb1.github.io/SwiftyPick/badge.svg)
 
 ## Purpose
 
@@ -30,7 +30,7 @@ Open `SwiftyPick.xcworkspace` with Xcode
 
 * [Add support for multiple Color Palettes](Documentation/ColorPalette.md): Easily handle multiple color palettes in your app.
 * [AutoLayout helper methods](Documentation/AutoLayout.md): Lightweight classes for declarative auto layout.
-* [TableView extensions](Documentation/TableViewExtensions.md): A couple of helper methods when dealing with [table|collection]views and cells.
+* [TableView extensions](Documentation/TableViewExtensions.md): A couple of helper methods when dealing with table and collection views and cells.
 
 ### Features
 

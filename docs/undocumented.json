@@ -1,117 +1,117 @@
 {
   "warnings": [
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 14,
       "symbol": "AssetImageTypeAlias",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 21,
       "symbol": "Asset",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 22,
       "symbol": "Asset.swiftLogo",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 25,
       "symbol": "Asset.allImages",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 34,
       "symbol": "ImageAsset",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 35,
       "symbol": "ImageAsset.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
-      "line": 40,
-      "symbol": "ImageAsset.Image",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 40,
       "symbol": "ImageAsset.Image",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 43,
       "symbol": "ImageAsset.image",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 60,
+      "symbol": "ImageAsset.Image",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 63,
       "symbol": "ImageAsset.Image.init(asset:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 12,
       "symbol": "L10n",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 14,
       "symbol": "L10n.ColorPaletteScreen",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 19,
       "symbol": "L10n.FeaturesScreen",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 22,
       "symbol": "L10n.FeaturesScreen.Sections",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 23,
       "symbol": "L10n.FeaturesScreen.Sections.UserInterface",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
+      "file": "/Users/runner/work/SwiftyPick/SwiftyPick/SwiftyPick/Resources/Generated/Strings+Generated.swift",
       "line": 30,
       "symbol": "L10n.Greeting",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/manuherrera/projects/Personales/SwiftyPick"
+  "source_directory": "/Users/runner/work/SwiftyPick/SwiftyPick"
 }
