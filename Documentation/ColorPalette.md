@@ -1,4 +1,4 @@
-#  Color Palette
+# Color Palette
 
 The purpose of this document is to be a step by step guide on how to support multiple color palettes in your app
 

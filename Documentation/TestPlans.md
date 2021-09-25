@@ -1,4 +1,4 @@
-#  Testing using Test Plans
+# Testing using Test Plans
 
 The purpose of this document is to explain how to add Test Plans to your projects and how to use them.
 
