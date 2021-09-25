@@ -1,13 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Presentation/Screen/Main/MainViewController.swift",
-      "line": 10,
-      "symbol": "MainViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 14,
       "symbol": "AssetImageTypeAlias",
@@ -53,6 +46,13 @@
       "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
       "line": 40,
       "symbol": "ImageAsset.Image",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
+      "line": 40,
+      "symbol": "ImageAsset.Image",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
@@ -61,13 +61,6 @@
       "line": 43,
       "symbol": "ImageAsset.image",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/manuherrera/projects/Personales/SwiftyPick/SwiftyPick/Resources/Generated/Assets+Generated.swift",
-      "line": 60,
-      "symbol": "ImageAsset.Image",
-      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
