@@ -12,8 +12,9 @@ The purpose of this document is to explain how to add Jazzy to your projects in 
     > In this repository, the minimum level for documentation is set to `internal`
 3. Run the script in the console:
     > `./scripts/generate_docs.sh`
-4. Add the Documentation svg to your README:
-    > `![Documentation](Documentation/jazzy/badge.svg)`
+4. TODO: Explain how to host documentation on Github Pages
+5. Add the Documentation svg to your README:
+    > `![Documentation](https://mdb1.github.io/SwiftyPick/badge.svg)`
     
-    ![Documentation](jazzy/badge.svg)
+    ![Documentation](https://mdb1.github.io/SwiftyPick/badge.svg)
 
