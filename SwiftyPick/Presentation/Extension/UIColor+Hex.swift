@@ -7,11 +7,6 @@
 
 import UIKit
 
-/// Testing github action to deploy docs
-func hello() {
-
-}
-
 extension UIColor {
     /// Returns the hex of a color. For example: `#FFFFFF`.
     /// - Returns: The hex string for this `UIColor`.

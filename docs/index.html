@@ -140,14 +140,6 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Functions.html">Functions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Functions.html#/s:10SwiftyPick5helloyyF">hello()</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a href="Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
@@ -214,7 +206,17 @@
 
 <p>Useful Swift code samples, extensions, functionalities and scripts to cherry-pick and use in your projects.</p>
 
-<p><strong><code>internal level documentation:</code></strong> <img src="https://mdb1.github.io/SwiftyPick/badge.svg" alt="Documentation"></p>
+<table><thead>
+<tr>
+<th><a href="https://mdb1.github.io/SwiftyPick">Codebase documentation</a></th>
+</tr>
+</thead><tbody>
+<tr>
+<td><img src="https://mdb1.github.io/SwiftyPick/badge.svg" alt="Documentation"></td>
+</tr>
+</tbody></table>
+
+<p>The documentation on this project is generated and updated automatically using Jazzy + Github Actions. For more info check the <a href="Documentation/Jazzy.md">Jazzy docs</a> on this repo.</p>
 <h2 id='purpose' class='heading'>Purpose</h2>
 
 <p>The idea behind this project is not to be a <code>pod</code> that users import into their own projects, but rather a collection of useful ideas, well-organized and documented, to cherry-pick as needed into another projects.
@@ -310,7 +312,6 @@ Every new piece of functionality will have a proper document explaining it&rsquo
 
 <ul>
 <li>[ ] Run UI tests in github actions once a day</li>
-<li>[ ] Host Jazzy docs in a different place (out of the repo) - Run Github Action weekly to update the docs.</li>
 <li>[ ] UserDefaults easy access / FeatureFlags using UserDefaults</li>
 <li>[ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)</li>
 <li>[ ] Lightweight <code>URLSession</code> networking layer</li>
