@@ -2,7 +2,11 @@
 
 Useful Swift code samples, extensions, functionalities and scripts to cherry-pick and use in your projects.
 
-**`internal level documentation:`** ![Documentation](https://mdb1.github.io/SwiftyPick/badge.svg)
+|[Codebase documentation](https://mdb1.github.io/SwiftyPick)|
+|-|
+|![Documentation](https://mdb1.github.io/SwiftyPick/badge.svg)|
+
+The documentation on this project is generated and updated automatically using Jazzy + Github Actions. For more info check the [Jazzy docs](Documentation/Jazzy.md) on this repo.
 
 ## Purpose
 
@@ -77,7 +81,6 @@ Open `SwiftyPick.xcworkspace` with Xcode
 This is the list of things I want to add to the project in the near future:
 
 - [ ] Run UI tests in github actions once a day
-- [ ] Host Jazzy docs in a different place (out of the repo) - Run Github Action weekly to update the docs.
 - [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
 - [ ] Lightweight `URLSession` networking layer
