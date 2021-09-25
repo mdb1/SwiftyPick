@@ -1,4 +1,4 @@
-#  MVP: UI Design Pattern
+# MVP: UI Design Pattern
 
 The purpose of this document is to explain how to use the MVP (Model-View-Presenter) UI design pattern in your projects.
 

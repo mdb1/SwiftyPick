@@ -30,6 +30,7 @@ Open `SwiftyPick.xcworkspace` with Xcode
 
 * [Add support for multiple Color Palettes](Documentation/ColorPalette.md): Easily handle multiple color palettes in your app.
 * [AutoLayout helper methods](Documentation/AutoLayout.md): Lightweight classes for declarative auto layout.
+* [TableView extensions](Documentation/TableViewExtensions.md): A couple of helper methods when dealing with [table|collection]views and cells.
 
 ### Features
 
@@ -75,7 +76,8 @@ Open `SwiftyPick.xcworkspace` with Xcode
 # TODOs
 This is the list of things I want to add to the project in the near future:
 
-- [ ] UITableViewCell/UICollectionViewCell extension for `register`, `dequeue`, and `cellReuseIdentifier`
+- [ ] Run UI tests in github actions once a day
+- [ ] Host Jazzy docs in a different place (out of the repo) - Run Github Action weekly to update the docs.
 - [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
 - [ ] Lightweight `URLSession` networking layer
@@ -88,6 +90,7 @@ This is the list of things I want to add to the project in the near future:
 - [ ] DateFormatter + Regional unit tests
 - [ ] Dynamic Fonts (For accessibility)
 - [ ] UITests layer using Page Object pattern
+- [ ] Run UI Tests against local json files to avoid using the network
 - [ ] Schemes (prod/dev)
 - [ ] UIView extension with some basic animations
 - [ ] Firebase integration (Analytics/Crashlytics/AB Testing/Flags)

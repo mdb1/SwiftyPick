@@ -1,4 +1,4 @@
-#  Jazzy
+# Jazzy
 
 <img alt="Jazzy Logo" src="https://github.com/realm/jazzy/raw/master/images/logo.jpg" />
 
