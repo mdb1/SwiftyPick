@@ -1,0 +1,24 @@
+name: Documentation
+
+on:
+  push:
+    branches: main
+
+jobs:
+  generate_docs:
+    name: Docs
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout 🔧
+      uses: actions/checkout@v1
+    - name: Run Script 📝
+      run: |
+        chmod 777 scripts/generate_docs.sh
+        ./scripts/generate_docs.sh
+      shell: bash
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+        branch: gh-pages
+        folder: .

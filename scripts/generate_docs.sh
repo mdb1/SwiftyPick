@@ -3,6 +3,9 @@
 # Deintegrate the pods
 pod deintegrate
 
+# Install the jazzy gem on CI
+gem install jazzy
+
 # Run jazzy
 jazzy -c \
     --output ./docs \
