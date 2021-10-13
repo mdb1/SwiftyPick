@@ -18,10 +18,9 @@ platform :ios do
   desc "Sanity checks to run on CI"
   lane :sanity_checks do
     swiftlint_strict
-    # just unit testing for now, due to a problem with Github Actions
     unit_tests_full_plan
     unit_tests_regional
-    # ui_tests
+    ui_tests
   end
 
   desc "Build the app"
@@ -33,21 +32,30 @@ platform :ios do
   desc "Run the unit tests default plan"
   lane :unit_tests_full_plan do
     run_tests(
-      testplan: "UnitTestsPlan"
+      testplan: "UnitTestsPlan",
+      slack_url: ENV['SLACK_WEB_HOOK_URL'],
+      slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
+      slack_only_on_failure: true
     )
   end
 
   desc "Run the regional unit tests (US Config)"
   lane :unit_tests_regional do
     run_tests(
-      testplan: "RegionalTestsPlan"
+      testplan: "RegionalTestsPlan",
+      slack_url: ENV['SLACK_WEB_HOOK_URL'],
+      slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
+      slack_only_on_failure: true
     )
   end
 
   desc "Run the UI tests"
   lane :ui_tests do
     run_tests(
-      testplan: "UITestsPlan"
+      testplan: "UITestsPlan",
+      slack_url: ENV['SLACK_WEB_HOOK_URL'],
+      slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
+      slack_only_on_failure: true
     )
   end
 
