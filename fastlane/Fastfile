@@ -33,6 +33,7 @@ platform :ios do
   lane :unit_tests_full_plan do
     run_tests(
       testplan: "UnitTestsPlan",
+      include_simulator_logs: true,
       slack_url: ENV['SLACK_WEB_HOOK_URL'],
       slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
       slack_only_on_failure: true
@@ -43,6 +44,7 @@ platform :ios do
   lane :unit_tests_regional do
     run_tests(
       testplan: "RegionalTestsPlan",
+      include_simulator_logs: true,
       slack_url: ENV['SLACK_WEB_HOOK_URL'],
       slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
       slack_only_on_failure: true
@@ -53,6 +55,7 @@ platform :ios do
   lane :ui_tests do
     run_tests(
       testplan: "UITestsPlan",
+      include_simulator_logs: true,
       slack_url: ENV['SLACK_WEB_HOOK_URL'],
       slack_channel: ENV['SLACK_CI_CHANNEL_NAME'],
       slack_only_on_failure: true
