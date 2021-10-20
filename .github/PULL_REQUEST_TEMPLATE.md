@@ -6,13 +6,6 @@
 <!-- Overview of the things that changed -->
 <!-- provide code snippets if necessary -->
 *
-*
-
-## 🍒 How to cherry-pick to another project
-<!-- Include a guide to use these changes in a different project -->
-1. 
-2.
-3.
 
 ## ✅ Checklist
 - [ ] Documentation on how to cherry-pick to another project added in `Documentation/`
