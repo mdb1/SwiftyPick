@@ -80,7 +80,7 @@ Open `SwiftyPick.xcworkspace` with Xcode
 # TODOs
 This is the list of things I want to add to the project in the near future:
 
-- [ ] Run UI tests in github actions once a day
+- [ ] Add a GHA that distributes a new build of the app to TestFlight on every push to `main`
 - [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
 - [ ] Lightweight `URLSession` networking layer
