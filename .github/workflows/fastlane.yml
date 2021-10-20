@@ -1,13 +1,12 @@
 name: Fastlane
 
 on:
-  pull_request:
-    branches: main
+  pull_request
 
 jobs:
   test:
-    name: Test
-    runs-on: macos-latest
+    name: Sanity Checks
+    runs-on: macos-11.0
 
     steps:
     - name: Checkout
@@ -20,4 +19,7 @@ jobs:
     - name: Bundle Install
       run: bundle install
     - name: Sanity tests
-      run: bundle exec fastlane sanity_checks
+      env:
+        SLACK_WEB_HOOK_URL: ${{ secrets.SLACK_WEB_HOOK_URL }}
+        SLACK_CI_CHANNEL_NAME: ${{ secrets.CI_CHANNEL_NAME }}
+      run: bundle exec fastlane sanity_checks 
