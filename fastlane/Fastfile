@@ -40,7 +40,7 @@ platform :ios do
     )
   end
 
-  desc "Run the regional unit tests (US Config)"
+  desc "Run the regional unit tests"
   lane :unit_tests_regional do
     run_tests(
       testplan: "RegionalTestsPlan",
