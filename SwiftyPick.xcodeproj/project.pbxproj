@@ -24,7 +24,6 @@
 		A044B10026D67D350051EDEA /* GithubTemplates.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B0FF26D67D340051EDEA /* GithubTemplates.md */; };
 		A044B10226D67D470051EDEA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10126D67D470051EDEA /* README.md */; };
 		A044B10526D6868C0051EDEA /* SwiftLint.md in Resources */ = {isa = PBXBuildFile; fileRef = A044B10426D6868C0051EDEA /* SwiftLint.md */; };
-		A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */; };
 		A05AA69826EAA87600A3521B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69726EAA87600A3521B /* MainViewController.swift */; };
 		A05AA69A26EAAB9B00A3521B /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69926EAAB9B00A3521B /* MainPresenter.swift */; };
 		A05AA69D26EAC22800A3521B /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AA69C26EAC22800A3521B /* FeaturesViewController.swift */; };
@@ -100,7 +99,6 @@
 		A044B0FF26D67D340051EDEA /* GithubTemplates.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GithubTemplates.md; sourceTree = "<group>"; };
 		A044B10126D67D470051EDEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A044B10426D6868C0051EDEA /* SwiftLint.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = SwiftLint.md; sourceTree = "<group>"; };
-		A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerEmptyFile.swift; sourceTree = "<group>"; };
 		A05AA69726EAA87600A3521B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A05AA69926EAAB9B00A3521B /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		A05AA69C26EAC22800A3521B /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
@@ -369,7 +367,6 @@
 		A06890C826D5D7A700D1BC36 /* SwiftyPick */ = {
 			isa = PBXGroup;
 			children = (
-				A0FAAEB126D6D1F000B4F1A4 /* Configuration */,
 				A03CAF4726D92655008FA41A /* Presentation */,
 				A07265AD26D7C8960052DE86 /* Resources */,
 				A06890D726D5D7A900D1BC36 /* Info.plist */,
@@ -525,22 +522,6 @@
 				A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		A0FAAEB126D6D1F000B4F1A4 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				A0FAAEB226D6D20100B4F1A4 /* Danger */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		A0FAAEB226D6D20100B4F1A4 /* Danger */ = {
-			isa = PBXGroup;
-			children = (
-				A044B10826D69DFE0051EDEA /* DangerEmptyFile.swift */,
-			);
-			path = Danger;
 			sourceTree = "<group>";
 		};
 		D74AD6241D7842ABABE4C4CB /* Frameworks */ = {
@@ -809,7 +790,6 @@
 				A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */,
 				A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */,
 				A03CAF5326D9477D008FA41A /* Constants.swift in Sources */,
-				A044B10926D69DFE0051EDEA /* DangerEmptyFile.swift in Sources */,
 				A05AA69F26EAC33700A3521B /* FeaturesPresenter.swift in Sources */,
 				A05AA6A426EAC71800A3521B /* FeaturesTableData.swift in Sources */,
 				A05AA69D26EAC22800A3521B /* FeaturesViewController.swift in Sources */,
