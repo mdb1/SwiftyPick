@@ -134,6 +134,7 @@
 		A074DED326D7DA3D008D4A17 /* LocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableTests.swift; sourceTree = "<group>"; };
 		A074DED626D7DBA0008D4A17 /* XCTestCase+Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Region.swift"; sourceTree = "<group>"; };
 		A081764E26FE9B9E00EB1D81 /* TableViewExtensions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TableViewExtensions.md; sourceTree = "<group>"; };
+		A099AA0D2724A06100D6F6B6 /* Fastlane+Distribution.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Fastlane+Distribution.md"; sourceTree = "<group>"; };
 		A0A5903E26E973C300EFCDF6 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		A0A5904026E9755300EFCDF6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A0A5904326E9799B00EFCDF6 /* ColorPalettePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalettePresenter.swift; sourceTree = "<group>"; };
@@ -289,6 +290,7 @@
 				A0CDC5A526E3C9E400347AC5 /* AutoLayout.md */,
 				A03CAF5A26D9580A008FA41A /* ColorPalette.md */,
 				A0FAAEB026D6C87A00B4F1A4 /* Danger.md */,
+				A099AA0D2724A06100D6F6B6 /* Fastlane+Distribution.md */,
 				A064F88B26D8188A009335E9 /* Fastlane.md */,
 				A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */,
 				A044B0FF26D67D340051EDEA /* GithubTemplates.md */,
