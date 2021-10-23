@@ -65,6 +65,57 @@ platform :ios do
   desc "Run swiftlint in strict mode"
   lane :swiftlint_strict do
     swiftlint(strict: true)
-  end  
+  end 
+
+  desc "Upload to testflight"
+  lane :distribute_to_testflight do
+    app_store_connect_api_key(
+      is_key_content_base64: true
+    )
+    if is_ci
+      setup_ci
+    end
+    sync_certs
+    bundle_install
+    cocoapods
+    increment_build_number(
+      build_number: latest_testflight_build_number(
+        username: ENV['APPLE_ID_USERNAME'],
+        app_identifier: "mdb.SwiftyPick"
+      ) + 1
+    )
+    build_app(
+      export_options: {
+        provisioningProfiles: { 
+          "mdb.SwiftyPick" => "SwiftyPick AppStore"
+        }
+      }
+    )
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      changelog: changelog_from_git_commits(
+        commits_count: 5,
+        pretty: "- %s",
+        merge_commit_filtering: "exclude_merges"
+      )
+    )
+  end
+
+  desc "Sync certificates from private repo"
+  lane :sync_certs do
+    match(
+      git_branch: "main",
+      type: "appstore",
+      profile_name: "SwiftyPick AppStore",
+      app_identifier: "mdb.SwiftyPick"
+    )
+  
+    match(
+      git_branch: "main",
+      type: "development",
+      profile_name: "SwiftyPick Development",
+      app_identifier: "mdb.SwiftyPick"
+    )
+  end
 
 end

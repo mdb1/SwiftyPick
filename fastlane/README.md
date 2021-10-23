@@ -35,7 +35,7 @@ Run the unit tests default plan
 ```
 fastlane ios unit_tests_regional
 ```
-Run the regional unit tests (US Config)
+Run the regional unit tests
 ### ios ui_tests
 ```
 fastlane ios ui_tests
@@ -46,6 +46,16 @@ Run the UI tests
 fastlane ios swiftlint_strict
 ```
 Run swiftlint in strict mode
+### ios distribute_to_testflight
+```
+fastlane ios distribute_to_testflight
+```
+Upload to testflight
+### ios sync_certs
+```
+fastlane ios sync_certs
+```
+Sync certificates from private repo
 
 ----
 
