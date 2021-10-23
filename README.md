@@ -63,6 +63,7 @@ Open `SwiftyPick.xcworkspace` with Xcode
 ### Fastlane
 * [Fastlane](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane.md): Configure Fastlane in your project and add a Github Action to run the tests on every PR to `main`.
 * [Run Test Plans on Fastlane](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/TestPlans.md): Configure your fastfile to run different test plans.
+* [Automatic distribution to testflight](https://github.com/mdb1/SwiftyPick/blob/main/Documentation/Fastlane+Distribution.md): Automate the process of uploading builds to testflight using Fastlane and Github Actions.
 
 ### Github
 
@@ -80,7 +81,6 @@ Open `SwiftyPick.xcworkspace` with Xcode
 # TODOs
 This is the list of things I want to add to the project in the near future:
 
-- [ ] Add a GHA that distributes a new build of the app to TestFlight on every push to `main`
 - [ ] UserDefaults easy access / FeatureFlags using UserDefaults
 - [ ] Logger: Object to log useful information to the console (and to report to analytics/crashlytics)
 - [ ] Lightweight `URLSession` networking layer

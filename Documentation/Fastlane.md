@@ -2,7 +2,7 @@
 
 <img alt="Fastlane Logo" src="https://docs.fastlane.tools/img/fastlane_text.png" />
 
-The purpose of this document is to be a step by step guide on how to integrate Fastlane to your project.
+The purpose of this document is to be a step by step guide on how to integrate Fastlane to your project and use github actions to run the lanes.
 
 * [Getting Started](https://docs.fastlane.tools/getting-started/ios/setup/)
 

@@ -25,7 +25,7 @@ In order to run the new configurations on CI (Using FastLane) we need to modify 
     )
   end
 
-  desc "Run the regional unit tests (US Config)"
+  desc "Run the regional unit tests"
   lane :unit_tests_regional do
     run_tests(
       testplan: "RegionalTestsPlan"
@@ -46,14 +46,16 @@ Then in the lane you will run on CI:
   lane :sanity_checks do
     unit_tests_full_plan
     unit_tests_regional
+    ui_tests
   end
 ```
 
-In this case, we've added a new lane for each of the configurations:
+In this case, we've added a new lane for each test plan:
 1. The System Configuration that will run all the tests (`UnitTestsPlan`).
 2. The Regional Config, that will only run the tests in the `RegionalTestsPlan` using all it's configurations
     * 🇺🇸 United States with English language.
     * 🇦🇷 Argentina with Spanish language.
+3. Run the UI Tests
 
 
 
