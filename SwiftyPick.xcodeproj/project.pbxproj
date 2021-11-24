@@ -57,6 +57,8 @@
 		A0ED2FA926DEC279008AB6C6 /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FA826DEC279008AB6C6 /* UIView+Pin.swift */; };
 		A0ED2FAC26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */; };
 		A0ED2FAE26DEDFC8008AB6C6 /* UIView+PinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */; };
+		A0F1007F274E757C00330371 /* ConstraintsWarningCatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1007E274E757C00330371 /* ConstraintsWarningCatcher.swift */; };
+		A0F10082274E790100330371 /* BuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F10081274E790100330371 /* BuildConfiguration.swift */; };
 		B60A5B2C625BC96C84259ED6 /* Pods_SwiftyPick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF958C068698680C3D7515A1 /* Pods_SwiftyPick.framework */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +153,8 @@
 		A0ED2FA826DEC279008AB6C6 /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
 		A0ED2FAB26DEDCFB008AB6C6 /* UIView+AddSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewTests.swift"; sourceTree = "<group>"; };
 		A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinTests.swift"; sourceTree = "<group>"; };
+		A0F1007E274E757C00330371 /* ConstraintsWarningCatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsWarningCatcher.swift; sourceTree = "<group>"; };
+		A0F10081274E790100330371 /* BuildConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildConfiguration.swift; sourceTree = "<group>"; };
 		A0FAAEAF26D6C86A00B4F1A4 /* GithubActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GithubActions.md; sourceTree = "<group>"; };
 		A0FAAEB026D6C87A00B4F1A4 /* Danger.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Danger.md; sourceTree = "<group>"; };
 		A0FAAEB426D6D89C00B4F1A4 /* SortProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SortProject.md; sourceTree = "<group>"; };
@@ -249,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				A03CAF5226D9477D008FA41A /* Constants.swift */,
+				A0F1007E274E757C00330371 /* ConstraintsWarningCatcher.swift */,
 				A03CAF5426D9478E008FA41A /* Spacing.swift */,
 			);
 			path = Common;
@@ -369,6 +374,7 @@
 		A06890C826D5D7A700D1BC36 /* SwiftyPick */ = {
 			isa = PBXGroup;
 			children = (
+				A0F10080274E78F700330371 /* Domain */,
 				A03CAF4726D92655008FA41A /* Presentation */,
 				A07265AD26D7C8960052DE86 /* Resources */,
 				A06890D726D5D7A900D1BC36 /* Info.plist */,
@@ -524,6 +530,14 @@
 				A0ED2FAD26DEDFC8008AB6C6 /* UIView+PinTests.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0F10080274E78F700330371 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A0F10081274E790100330371 /* BuildConfiguration.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		D74AD6241D7842ABABE4C4CB /* Frameworks */ = {
@@ -786,12 +800,14 @@
 				A0A5903F26E973C300EFCDF6 /* BasePresenter.swift in Sources */,
 				A0A5904626E97C8B00EFCDF6 /* BaseView.swift in Sources */,
 				A0A5904126E9755300EFCDF6 /* BaseViewController.swift in Sources */,
+				A0F10082274E790100330371 /* BuildConfiguration.swift in Sources */,
 				A0A5904426E9799B00EFCDF6 /* ColorPalettePresenter.swift in Sources */,
 				A03CAF4A26D9267E008FA41A /* ColorPalettesView.swift in Sources */,
 				A0A5904826E97CE700EFCDF6 /* ColorPaletteView.swift in Sources */,
 				A06890CE26D5D7A700D1BC36 /* ColorPaletteViewController.swift in Sources */,
 				A03CAF4C26D927A6008FA41A /* ColorRepresentationView.swift in Sources */,
 				A03CAF5326D9477D008FA41A /* Constants.swift in Sources */,
+				A0F1007F274E757C00330371 /* ConstraintsWarningCatcher.swift in Sources */,
 				A05AA69F26EAC33700A3521B /* FeaturesPresenter.swift in Sources */,
 				A05AA6A426EAC71800A3521B /* FeaturesTableData.swift in Sources */,
 				A05AA69D26EAC22800A3521B /* FeaturesViewController.swift in Sources */,

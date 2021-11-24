@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = MainViewController()
         self.window = window
         window.makeKeyAndVisible()
+        ConstraintWarningCatcher.shared.startListening()
 
         return true
     }
